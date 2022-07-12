@@ -11,4 +11,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenario scene.unity
     guid: 3bbc339653f9e0c43a92f6b0df14f6da
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO1 LEARNING PART 1.unity
+    guid: 54e133004075a644a89f907c98949ba9
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO1 LEARNING PART 2.unity
+    guid: ab8fabb4f4be9f449b4f83e5e7f933cc
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO2 LEARNING PART 1.unity
+    guid: ab171e2725b69234aa390adcfcb46d59
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO2 LEARNING PART 2.unity
+    guid: da96687ba298728478a55e5e93957fac
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO3 LEARNING PART 1.unity
+    guid: 07571fa7960d57d4fb5b32fb0fd606fb
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO3 LEARNING PART 2.unity
+    guid: 664a945834d5eb14c9fcdbcc48eaa21a
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO4 LEARNING PART 1.unity
+    guid: 09dfa340e75ef0c47904a81441d9db9d
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO4 LEARNING PART 2.unity
+    guid: 8cdb9fed9f1e5ab498b88a48be65c5b5
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO5 LEARNING PART 1.unity
+    guid: d7302ec81f37919419d9472b05ab2bb6
+  - enabled: 1
+    path: Assets/Scenes/SCENARIO5 LEARNING PART 2.unity
+    guid: 2b5b207d28ba2de478a4cdb9618817bb
   m_configObjects: {}

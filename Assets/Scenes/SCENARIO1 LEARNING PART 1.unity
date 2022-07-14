@@ -434,7 +434,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SCENARIO 1
+  m_text: 'You have been assigned the case of "Child Kidnap"
+
+
+    Here are the few
+    things you need to take note of, such as prioritising what kind of evidences
+    to look for
+
 
 '
   m_isRightToLeft: 0
@@ -499,7 +505,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -47.368515, z: -44.325928, w: -0.8122864}
+  m_margin: {x: -136.6482, y: -182.80736, z: -159.20715, w: -108.43787}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -550,7 +556,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50.1, y: -119.8}
+  m_AnchoredPosition: {x: -54.66, y: -119.8}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212116955

@@ -332,7 +332,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SCENARIO 2.2
+  m_text: 'When you are searching the crime scene, look out for devices that is able
+    to give you more information about the victim''s social life. From there, you
+    will be able to form relationships between the victim and his/her friends
+
+
+    Do
+    not make any changes to the current state of the device. For example, leave the
+    computer on if it is already turned on. Also, make sure to take photographs of
+    the screens shown on the computer in case something goes wrong
+
+
 
 '
   m_isRightToLeft: 0
@@ -361,14 +371,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -397,7 +407,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -56.792603, y: 0, z: 0, w: 0}
+  m_margin: {x: -310.52054, y: -167.28174, z: -243.02502, w: -86.52504}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

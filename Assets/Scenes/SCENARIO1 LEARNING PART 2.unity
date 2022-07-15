@@ -332,7 +332,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SCENARIO 1.2
+  m_text: 'When you are searching the crime scene, look out for devices such as the
+    victim''s mobile phone or anything that the victim can use to connect to the
+    internet
+
+
+    If you want to seize the device, make sure the device has limited
+    network connectivity and ensure it is powered on if you do not know the password
+    to the device
 
 '
   m_isRightToLeft: 0
@@ -361,15 +368,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -397,7 +404,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -56.792603, y: 0, z: 0, w: 0}
+  m_margin: {x: -224.07428, y: -203.3338, z: -147.09265, w: -92.293365}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

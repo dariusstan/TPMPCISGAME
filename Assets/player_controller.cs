@@ -1,9 +1,9 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player_controller : MonoBehaviour
+public class player_controller : MonoBehaviour
 {   
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;

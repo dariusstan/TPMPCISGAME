@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -333,9 +333,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8720000
-    m_LastClickedID: 29416
-    m_ExpandedIDs: 00000000d872000000ca9a3bffffff7f
+    m_SelectedIDs: 38730000
+    m_LastClickedID: 29496
+    m_ExpandedIDs: 000000002673000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -363,7 +363,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d8720000
+    m_ExpandedIDs: 0000000026730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,7 +407,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -450,9 +450,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1c730000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 48f7ffff7ef7ffffb4f7ffffeaf7ffff20f8ffff56f8ffff8ef8ffffc4f8fffffaf8ffff30f9ffff66f9ffffa4f9ffffe0f9ffff1cfaffff2afbffff
+      m_ExpandedIDs: 4aa1ffff86a1ffffcca4ffff36a5ffff88a5ffffcca5ffff12a6ffff56a6ffff46a8ffff8aa8fffffca9ffff8eaaffff26abffff64abffffccaeffff14afffff90afffffccafffff02b0ffff5eb0ffffd6b0ffffa0b1ffffeeb1ffff24b2ffff66b3ffffaab3ffff14b4ffff58b4ffffbcb5ffff00b6ffff7eb6ffffccb6ffff18b7ffffdab7ffff2ab8ffff6eb8ffffb4b8ffffd2baffff18bdffff54bdffff8abdffffc0bdfffff8bdffff36beffffb4c1ffffeac1ffff28c2ffffbcc3fffff2c3ffff28c4ffffc2c5fffff8c5ffff2ec6ffff6cc6ffffa2c6ffff44c8ffff3ec9ffff1ecaffff56caffff8ccaffff6accffffeccdffff22ceffff0cd1ffff48d1ffff7ed1ffffb4d1ffffecd1ffff24d2ffff8ad4ffff0ed8ffff44d8ffff7ad8ffffb2d8ffffe8d8ffff1ed9ffff5ad9ffff28daffff5edaffff94daffffcadaffff00dbffff36dbffff6cdbffffa2dbffff6cdcffffe4dcffff62ddffffe2deffff1edfffff62dfffffaadffffff2dfffff56e0ffff92e0ffffd0e0ffff5ee1ffffe8e1ffff1ee2ffff54e2ffffcae3ffff00e4ffff38e4ffff6ee4ffffa4e4ffffdae4ffff10e5ffff46e5ffff7ce5ffffb2e5ffffece5ffffa6e6ffff30e7ffffa8e7fffff0e7ffff52e9ffff88e9ffffbee9fffff4e9ffff2aeaffff60eaffff9eeaffffdaeaffff10ebffff48ebffffb2ebffffe8ebffff1eecffff54ecffff8aecffffc0ecfffffeecffff34edffff6cedffffcaedffff00eeffff38eeffffa0eeffffdeeeffff14efffff4cefffff8aefffffc6efffff02f0fffffaf0ffff4ef1ffff86f1ffffc2f1ffff08f2ffff4ef2ffff86f2ffffc0f2fffff8f2ffff38f3ffff76f3ffffb6f3fffff4f3ffff3af7ffff76f7ffff76f8ffffacf8ffffeaf8ffffd0f9ffff06faffff2afbffff4c74000062740000227500002875000032750000167600004e76000062760000b4830000d08300004a8400005a8400008c840000928400009c840000be840000da840000008500001c850000da8700003089000044890000be890000d2890000ee8a00001a8b00007c8b00009e8b0000708c0000848c00006a8d00007a8d00009e8d0000ba8d0000f08d0000f68d0000008e00004c9000006290000074920000ac920000c0920000a8930000e0930000f493000066960000a4960000b896000076d2000092d20000fad2000016d30000bed90000d2d90000b0db0000e6e10000fce1000054e60000c8e7000092e80000a8e8000064ea0000d0ea000084eb0000fceb00003eec000070ed00009aed000030f200004cf20000c4f20000d4f2000038f300004af3000054f300000ef400001ef400009cfb0000b2fb0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -723,9 +723,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 385.73315, y: 204.37437, z: -1.4169749}
+    m_Target: {x: 551.80493, y: 174.26582, z: 0.35684347}
     speed: 2
-    m_Value: {x: 385.73315, y: 204.37437, z: -1.4169749}
+    m_Value: {x: 551.80493, y: 174.26582, z: 0.35684347}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -776,9 +776,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 288.29248
+    m_Target: 309.58127
     speed: 2
-    m_Value: 288.29248
+    m_Value: 309.58127
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 2
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0

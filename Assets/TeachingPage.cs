@@ -7,7 +7,7 @@ public class TeachingPage : MonoBehaviour {
 
     public void LearningPage(){
 
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(2);
 
     }
     

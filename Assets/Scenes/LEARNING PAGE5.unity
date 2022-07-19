@@ -434,13 +434,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Next, ensure that the state of the digital device you want to seize is
-    unchanged. For example, if a computer is turned on, leave it on. \n\nThis is
-    because if you interfere with it, this might triggered something unexpected like
-    data destruction. Furthermore, if you do not have the password to the device
-    and it turns off, you will not be able to access the information inside\n\nWe
-    will now move on to how to properly seize certain types of digital devices before
-    bringing them back to the forensic lab\n\n\n"
+  m_text: "If you want to seize personal computers or laptops, make sure to take
+    a picture of the screen as it appears and include date, time and time zone. \n\nNext,
+    check the existence of network, wireless or cable connections. If there are,
+    remove them.\n\nDisable screensavers or power setting modes. The purpose is to
+    avoid the device to enter\r\nsavings states or shut down, losing the original
+    state of the system\r\n\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -503,7 +502,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -223.91489, y: -218.9197, z: -283.87378, w: -129.05627}
+  m_margin: {x: -223.91489, y: -192.70766, z: -283.87378, w: -177.34161}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

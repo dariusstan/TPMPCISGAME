@@ -434,13 +434,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Next, ensure that the state of the digital device you want to seize is
-    unchanged. For example, if a computer is turned on, leave it on. \n\nThis is
-    because if you interfere with it, this might triggered something unexpected like
-    data destruction. Furthermore, if you do not have the password to the device
-    and it turns off, you will not be able to access the information inside\n\nWe
-    will now move on to how to properly seize certain types of digital devices before
-    bringing them back to the forensic lab\n\n\n"
+  m_text: "If you want to seize gaming consoles like PlayStations or Xbox's, just
+    disconnect everything and take pictures of the device before packing it up. \n\nThese
+    kinds of digital devices can prove useful because they can contain useful information
+    such as the victim's social life online\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -467,8 +464,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -503,7 +500,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -223.91489, y: -218.9197, z: -283.87378, w: -129.05627}
+  m_margin: {x: -223.91489, y: -217.54012, z: -283.87378, w: -177.34161}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -554,8 +551,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.66, y: -125.1}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: -54.66, y: -138.6}
+  m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212116955
 MonoBehaviour:

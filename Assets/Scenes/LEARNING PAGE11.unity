@@ -434,24 +434,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'If you want to seize smartwatches or mobile phones, a general procedure
-    you should follow is to leave it at its current state. For example, it is turned
-    on, leave it on.
+  m_text: 'Firstly, for laptops, personal computers and external hard drives, you
+    can get valuable information such as their browsing history, emails, the victim''s
+    social media platforms, microsoft documents / text files and lastly images
 
 
-    Next, if it is turned on and you are able to access the
-    system, turn on airplane mode, disable screensaver, keep it charged and place
-    it inside a faraday bag to prevent the device''s data from being altered. If
-    you are unable to access the system, keep it charged and do not turn it off and
-    place it inside a faraday bag.
+    Next,
+    for mobile devices and smartwatches, information such as text messages, images
+    and their contacts list. From there, you can find who had what kind of relationships
+    with the victim
 
 
-    Lastly, if it is found off, leave it turned
-    off and place it inside a faraday bag and transport it back to the forensics
-    lab
-
-
-
+    Moving on, CCTVs and cameras contain information such as
+    video recordings and possibly the access credentials of the owner of the camera.
+    This can prove useful because if you want to find out what happened at the crime
+    scene beforehand you can do so this way
 
 '
   m_isRightToLeft: 0
@@ -480,8 +477,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -516,7 +513,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -223.91489, y: -217.54012, z: -283.87378, w: -177.34161}
+  m_margin: {x: -223.91489, y: -324.73615, z: -283.87378, w: -196.08104}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -567,7 +564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.66, y: -138.6}
+  m_AnchoredPosition: {x: -54.66, y: -134.7}
   m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212116955

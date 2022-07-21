@@ -434,20 +434,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'If you want to seize CCTVs, take pictures of the screens on the device,
-    shut the recorder down to avoid data from being overwritten, disconnect cables,
-    identify the model of the device and securely pack it afterwards
-
-
-    It is
-    also advised to seize every component of the CCTV in order to prevent issues
-    during the analysis phase
-
-
-    Next, we will talk about what kind of information
-    can you get from different kinds of digital devices
-
-'
+  m_text: "If you want to seize cameras like IP cameras or concealed cameras found
+    in corners of the crime scene, just disconnect everything and take pictures of
+    the device before packing it up. \n\nFirst responders have to bear in mind that
+    these kinds of cameras can be found almost anywhere because of how small these
+    cameras can go to.\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -474,8 +465,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -510,7 +501,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -223.91489, y: -253.45734, z: -283.87378, w: -166.4103}
+  m_margin: {x: -223.91489, y: -217.54012, z: -283.87378, w: -177.34161}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -434,10 +434,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "If you want to seize gaming consoles like PlayStations or Xbox's, just
-    disconnect everything and take pictures of the device before packing it up. \n\nThese
-    kinds of digital devices can prove useful because they can contain useful information
-    such as the victim's social life online\n\n\n"
+  m_text: 'If you want to seize smartwatches or mobile phones, a general procedure
+    you should follow is to leave it at its current state. For example, it is turned
+    on, leave it on.
+
+
+    Next, if it is turned on and you are able to access the
+    system, turn on airplane mode, disable screensaver, keep it charged and place
+    it inside a faraday bag to prevent the device''s data from being altered. If
+    you are unable to access the system, keep it charged and do not turn it off and
+    place it inside a faraday bag.
+
+
+    Lastly, if it is found off, leave it turned
+    off and place it inside a faraday bag and transport it back to the forensics
+    lab
+
+
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -434,13 +434,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Next, ensure that the state of the digital device you want to seize is
-    unchanged. For example, if a computer is turned on, leave it on. \n\nThis is
-    because if you interfere with it, this might triggered something unexpected like
-    data destruction. Furthermore, if you do not have the password to the device
-    and it turns off, you will not be able to access the information inside\n\nWe
-    will now move on to how to properly seize certain types of digital devices before
-    bringing them back to the forensic lab\n\n\n"
+  m_text: "Lastly, for gaming consoles like Playstations or Xbox, you are able to
+    get information such as user accounts, text messages and lastly periods of time
+    which the victim was using the console \n\nDepending on the scenario you are
+    faced with, different devices will be more useful than the rest. You will also
+    have to know how to properly seize the digital device as well in order not to
+    compromise the integrity of the data inside of it.\n\nIf you are still unsure
+    about anything, feel free to return back to this guide before you start playing
+    :)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -467,8 +468,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -503,7 +504,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -223.91489, y: -218.9197, z: -283.87378, w: -129.05627}
+  m_margin: {x: -223.91489, y: -336.6734, z: -283.87378, w: -206.31313}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -554,8 +555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.66, y: -125.1}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: -54.66, y: -134.7}
+  m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212116955
 MonoBehaviour:
@@ -603,7 +604,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1478264446}
         m_TargetAssemblyTypeName: NextLearning, Assembly-CSharp
-        m_MethodName: NextLearningPage
+        m_MethodName: BackToStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -754,7 +755,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NEXT
+  m_text: BACK
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

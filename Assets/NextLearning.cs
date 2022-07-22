@@ -10,5 +10,11 @@ public class NextLearning : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
+
+    public void BackToStart(){
+
+        SceneManager.LoadScene(0);
+
+    }
     
 }

@@ -434,7 +434,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Some simple terms that will be used throughout this game
+  m_text: 'If you want to seize smartwatches or mobile phones, a general procedure
+    you should follow is to leave it at its current state. For example, it is turned
+    on, leave it on.
+
+
+    Next, if it is turned on and you are able to access the
+    system, turn on airplane mode, disable screensaver, keep it charged and place
+    it inside a faraday bag to prevent the device''s data from being altered. If
+    you are unable to access the system, keep it charged and do not turn it off and
+    place it inside a faraday bag.
+
+
+    Lastly, if it is found off, leave it turned
+    off and place it inside a faraday bag and transport it back to the forensics
+    lab
+
 
 
 
@@ -465,8 +480,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -501,7 +516,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -136.6482, y: -302.03076, z: -159.20715, w: -19.626556}
+  m_margin: {x: -223.91489, y: -217.54012, z: -283.87378, w: -177.34161}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -552,8 +567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.66, y: -99.4}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: -54.66, y: -138.6}
+  m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212116955
 MonoBehaviour:

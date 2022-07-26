@@ -434,11 +434,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Some simple terms that will be used throughout this game
-
-
-
-'
+  m_text: "Some simple terms that will be used throughout this game\n\nCCTV - It
+    stands for closed-circuit television and is commonly known as video surveillance.
+    \u201CClosed-circuit\u201D means broadcasts are usually transmitted to a limited
+    (closed) number of monitors\n\nSOP - Standard Operating Procedure; this means
+    you have to follow a certain steps in order to accomplish the required task"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -465,8 +465,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -136.6482, y: -302.03076, z: -159.20715, w: -19.626556}
+  m_margin: {x: -290.20105, y: -319.44397, z: -339.67126, w: -138.35298}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

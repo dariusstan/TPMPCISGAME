@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LEARNING PAGE14.unity
     guid: 9e20a585ba2910b4ab40236c0fd42031
   - enabled: 1
+    path: Assets/Scenes/LEARNING PAGE15.unity
+    guid: 19c3bddb7ccb2c94ba157bd39fa7b065
+  - enabled: 1
     path: Assets/Scenes/SCENARIO1 LEARNING PART 1.unity
     guid: 54e133004075a644a89f907c98949ba9
   - enabled: 1

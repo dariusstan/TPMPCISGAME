@@ -20,7 +20,7 @@ public class Dialogue_trigger : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange)
+        /*if (playerInRange)
         {
             Visualcue.SetActive(true);
             if (InputManager.GetInstance().GetInstancePressed())
@@ -31,7 +31,7 @@ public class Dialogue_trigger : MonoBehaviour
         else
         {
             Visualcue.SetActive(false); 
-        }
+        }*/
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {

@@ -1,70 +1,50 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    [Header("Visual Cue")]
-    [SerializeField] private GameObject Visualcue;
+    public GameObject Dialogue_box;
 
-    [Header("Ink JSON")]
-    [SerializeField] private TextAsset inkJSON;
+    public Text Dialoguetext;
 
-    private bool playerInRange;
+    public string dialogue;
+    public bool PlayerInRange;
 
-    private void Awake() 
-    {
-        playerInRange = false;
-        Visualcue.SetActive(false);
+    void Start (){
+
     }
 
-    private void Update() 
-    {
-        if (playerInRange) 
-        { 
-            Visualcue.SetActive(true); 
-            if (Input_manager.GetInstance().GetInteractPressed()) 
-            { 
-                Debug.Log(inkJSON.text); 
-            } 
-        } 
-        else 
-        { 
-            Visualcue.SetActive(false);  
-        }
-        
-    
-        
-    
-
-        
-        /*if (playerInRange && !Dialogue_manager.GetInstance().dialogueIsPlaying) 
+    void Update (){
+        if (Input.GetKey(KeyCode.Space) && PlayerInRange)
         {
-            Visualcue.SetActive(true);
-            if (Input_manager.GetInstance().GetInteractPressed()) 
+            if(Dialogue_box.activeInHierarchy)
             {
-                Dialogue_manager.GetInstance().EnterDialogueMode(inkJSON);
+                Dialogue_box.SetActive(false);
+
+            }
+            else {
+                Dialogue_box.SetActive(true);
+                Dialoguetext.text = dialogue;
             }
         }
-        else 
-        {
-            Visualcue.SetActive(false);
-        }*/
+
     }
 
-    private void OnTriggerEnter2D(Collider2D collider) 
-    {
-        if (collider.gameObject.tag == "Player")
+    private void OnTriggerEnter2D(Collider2D other){
+        if (other.CompareTag("Player"))
         {
-            playerInRange = true;
+            PlayerInRange = true;
+
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PlayerInRange = false;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collider) 
-    {
-        if (collider.gameObject.tag == "Player")
-        {
-            playerInRange = false;
-        }
-    }
 }

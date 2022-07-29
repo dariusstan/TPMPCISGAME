@@ -434,7 +434,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SCENARIO 3
+  m_text: 'You have been assigned the case of "Drug Dealer"
+
+
+    Here are the few
+    things you need to take note of, such as prioritising what kind of digital devices
+    to look at first'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -497,7 +502,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -47.368515, z: -44.325928, w: -0.8122864}
+  m_margin: {x: -351.21912, y: -220.59425, z: -401.90192, w: -97.75513}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

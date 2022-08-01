@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class player_controller : MonoBehaviour
 {   
+   
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
@@ -49,6 +50,8 @@ public class player_controller : MonoBehaviour
                 spriteRenderer.flipX = false;
             }
             
+
+        
     }
 
     private bool TryMove(Vector2 direction) {

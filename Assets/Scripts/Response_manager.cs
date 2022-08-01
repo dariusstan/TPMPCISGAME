@@ -24,7 +24,7 @@ public class Response_manager : MonoBehaviour
         GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
         responseButton.gameObject.SetActive(true);
         responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
-        responseButton.GetComponent<Button>().onClick.AddListener(() =>OnPickedResponse(response));
+        responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
 
         tempResponseButtons.Add(responseButton);
 

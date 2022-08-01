@@ -1832,7 +1832,6 @@ GameObject:
   - component: {fileID: 661227698}
   - component: {fileID: 661227699}
   - component: {fileID: 661227700}
-  - component: {fileID: 661227703}
   - component: {fileID: 661227702}
   - component: {fileID: 661227701}
   - component: {fileID: 661227704}
@@ -1982,22 +1981,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.7395226, y: 1.739522}
   m_EdgeRadius: 0
---- !u!114 &661227703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661227697}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be2922ccc1138444298e09d2865678e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dialogue_box: {fileID: 0}
-  Dialoguetext: {fileID: 0}
-  dialogue: This is a Laptop
-  PlayerInRange: 1
 --- !u!114 &661227704
 MonoBehaviour:
   m_ObjectHideFlags: 0

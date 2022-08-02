@@ -22,5 +22,24 @@ public class NextLearning : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
     }
+
+    public void OpenLink1(){
+
+        Application.OpenURL("https://youtu.be/a-qHhpa8tqQ");
+
+    }
+
+    public void OpenLink2(){
+
+        Application.OpenURL("https://youtu.be/Zg5ex8WZUao");
+
+    }
+
+    public void OpenLink3(){
+
+        Application.OpenURL("https://youtu.be/ZUqzcQc_syE");
+
+    }
     
+
 }

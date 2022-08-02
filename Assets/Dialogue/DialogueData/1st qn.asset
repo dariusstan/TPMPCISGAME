@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 1st qn
   m_EditorClassIdentifier: 
   dialogue:
-  - You have found an evidence
-  - This is a laptop!
+  - You have found a laptop!
   responses:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: 835bd0bf6b81313439565798af02184c, type: 2}

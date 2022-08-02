@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: No
   m_EditorClassIdentifier: 
   dialogue:
-  - You selected No
+  - 'You selected No,
+
+'
   responses: []

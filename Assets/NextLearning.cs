@@ -40,6 +40,30 @@ public class NextLearning : MonoBehaviour {
         Application.OpenURL("https://youtu.be/ZUqzcQc_syE");
 
     }
+
+    public void Content1(){
+
+        SceneManager.LoadScene(2);
+
+    }
+
+    public void Content2(){
+
+        SceneManager.LoadScene(3);
+
+    }
+
+    public void Content3(){
+
+        SceneManager.LoadScene(4);
+
+    }
+
+    public void Content4(){
+
+        SceneManager.LoadScene(5);
+
+    }
     
 
 }

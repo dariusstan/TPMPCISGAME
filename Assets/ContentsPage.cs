@@ -89,5 +89,11 @@ public class ContentsPage : MonoBehaviour
 
     }
 
+    public void Video(){
+
+        SceneManager.LoadScene(22);
+
+    }
+
 
 }

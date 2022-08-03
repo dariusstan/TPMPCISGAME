@@ -311,8 +311,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 141.60004, y: -99}
-  m_SizeDelta: {x: 200, y: 60}
+  m_AnchoredPosition: {x: 141.60004, y: -115.5}
+  m_SizeDelta: {x: 350, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &514863013
 MonoBehaviour:
@@ -360,7 +360,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1478264446}
         m_TargetAssemblyTypeName: NextLearning, Assembly-CSharp
-        m_MethodName: BackToStart
+        m_MethodName: Content1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BACK
+  m_text: 'BACK TO CONTENT PAGE
 
 '
   m_isRightToLeft: 0

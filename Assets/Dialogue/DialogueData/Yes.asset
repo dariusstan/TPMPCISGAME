@@ -17,7 +17,8 @@ MonoBehaviour:
 
     Bring back to investigate?'
   responses:
-  - responseText: Yes
+  - responseText: You selected Yes, Bring back to investigate? Yes, Bring back to
+      investigate?
     dialogueObject: {fileID: 11400000, guid: 988e9e898dcc5014fa13d31210763eb6, type: 2}
   - responseText: No
     dialogueObject: {fileID: 11400000, guid: fb636b40013dd334d8a732ee63be8b33, type: 2}

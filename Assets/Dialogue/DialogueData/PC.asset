@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
-  m_Name: Yes
+  m_Name: PC
   m_EditorClassIdentifier: 
   dialogue:
-  - 'You selected Yes,
-
-    Bring back to investigate?'
+  - You have found a laptop that is powered on
   responses:
-  - responseText: Yes
-    dialogueObject: {fileID: 11400000, guid: 988e9e898dcc5014fa13d31210763eb6, type: 2}
-  - responseText: No
+  - responseText: Seize it
+    dialogueObject: {fileID: 11400000, guid: 835bd0bf6b81313439565798af02184c, type: 2}
+  - responseText: Do not seize it
     dialogueObject: {fileID: 11400000, guid: fb636b40013dd334d8a732ee63be8b33, type: 2}

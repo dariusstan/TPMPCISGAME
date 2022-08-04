@@ -1,14 +1,14 @@
 
 using UnityEngine;
 
-public class Dialogue_activator : MonoBehaviour ,IInteractable
+public class Dialogue_activator : MonoBehaviour, IInteractable
 {
 
     [SerializeField] private DialogueObject dialogueObject;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")&& other.TryGetComponent(out Player player))
+        if (other.CompareTag("Player") && other.TryGetComponent(out Player player))
         {
             player.Interactable = this;
         }
@@ -17,7 +17,7 @@ public class Dialogue_activator : MonoBehaviour ,IInteractable
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player")&& other.TryGetComponent(out Player player))
+        if (other.CompareTag("Player") && other.TryGetComponent(out Player player))
         {
            if (player.Interactable is Dialogue_activator dialogue_Activator && dialogue_Activator == this)
            {

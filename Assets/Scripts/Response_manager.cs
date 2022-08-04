@@ -8,7 +8,9 @@ public class Response_manager : MonoBehaviour
    [SerializeField] private RectTransform ResponseBox;
    [SerializeField] private RectTransform responseButtonTemplate;
    [SerializeField] private RectTransform responseContainer;
+
    private DialogueUI dialogueUI;
+   
    private List<GameObject> tempResponseButtons = new List<GameObject>();
 
    private void Start()
@@ -17,22 +19,22 @@ public class Response_manager : MonoBehaviour
    }
    public void ShowResponses (Response[] responses)
    {
-    float responseBoxHeight = 0; 
+        float responseBoxHeight = 0; 
 
-    foreach (Response response in responses)
-    {
-        GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
-        responseButton.gameObject.SetActive(true);
-        responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
-        responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
+        foreach (Response response in responses)
+        {
+            GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
+            responseButton.gameObject.SetActive(true);
+            responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
+            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
 
-        tempResponseButtons.Add(responseButton);
+            tempResponseButtons.Add(responseButton);
 
-        responseBoxHeight += responseButtonTemplate.sizeDelta.y;
-    }
+            responseBoxHeight += responseButtonTemplate.sizeDelta.y;
+        }
 
-    ResponseBox.sizeDelta = new Vector2(ResponseBox.sizeDelta.x, responseBoxHeight);
-    ResponseBox.gameObject.SetActive(true);
+        ResponseBox.sizeDelta = new Vector2(ResponseBox.sizeDelta.x, responseBoxHeight);
+        ResponseBox.gameObject.SetActive(true);
    }
 
    private void OnPickedResponse(Response response)

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
-  m_Name: PC
+  m_Name: Phone
   m_EditorClassIdentifier: 
   dialogue:
-  - You have found a laptop that is powered on
+  - You found a mobile device that is left on
   responses:
-  - responseText: 'Tip: Remember not to change the state of the device (Choose either
-      one of the two options below)'
+  - responseText: 'Tip: Ensure the device has network isolation (Choose either one
+      of the two options below)'
     dialogueObject: {fileID: 0}
   - responseText: Seize it
-    dialogueObject: {fileID: 11400000, guid: 835bd0bf6b81313439565798af02184c, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 082784e6ce7749944ab48b7982c22554, type: 2}
   - responseText: Do not seize it
-    dialogueObject: {fileID: 11400000, guid: fb636b40013dd334d8a732ee63be8b33, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 533bfee96dc23dc4e83e0e75600f32b7, type: 2}

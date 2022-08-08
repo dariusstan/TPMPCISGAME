@@ -13,31 +13,31 @@ public class ScenarioMenu : MonoBehaviour {
 
     public void Scenario1(){
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 21);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 25);
 
     }
 
     public void Scenario2(){
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 24);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 28);
 
     }
 
     public void Scenario3(){
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 27);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 31);
 
     }
 
     public void Scenario4(){
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 30);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 34);
 
     }
 
     public void Scenario5(){
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 33);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 37);
 
     }
    

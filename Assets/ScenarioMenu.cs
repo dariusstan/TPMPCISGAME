@@ -35,10 +35,16 @@ public class ScenarioMenu : MonoBehaviour {
 
     }
 
-    public void Scenario5(){
+    private void Scenario5()
+    {
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 33);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 37);
 
+    }
+
+    private void RetryBtn()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 37);
     }
    
 }

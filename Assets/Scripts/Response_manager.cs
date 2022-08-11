@@ -9,6 +9,9 @@ public class Response_manager : MonoBehaviour
    [SerializeField] private RectTransform responseButtonTemplate;
    [SerializeField] private RectTransform responseContainer;
 
+   public Text scoreText;
+   private int score;
+
    private DialogueUI dialogueUI;
    
    private List<GameObject> tempResponseButtons = new List<GameObject>();
@@ -50,4 +53,6 @@ public class Response_manager : MonoBehaviour
     dialogueUI.ShowDialogue(response.DialogueObject);
 
    }
+
 }
+

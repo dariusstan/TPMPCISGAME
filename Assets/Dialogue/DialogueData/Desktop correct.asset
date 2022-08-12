@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
-  m_Name: IP_cam
+  m_Name: Desktop correct
   m_EditorClassIdentifier: 
   dialogue:
-  - You have found an IP camera!
+  - 'This is the right choice!
+
+'
   responses: []

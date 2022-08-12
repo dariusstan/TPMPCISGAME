@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
-  m_Name: GameConsole
+  m_Name: IP CAM
   m_EditorClassIdentifier: 
   dialogue:
-  - You have found a Gameconsole!
+  - You have found an IP camera!
   responses:
-  - responseText: 'Tip: Remember to disconnect everything(Choose either one of the
-      two options below)'
+  - responseText: 'Tip: Remember to take picture of the camera (Choose either one
+      of the two options below)'
     dialogueObject: {fileID: 0}
   - responseText: Seize it
-    dialogueObject: {fileID: 11400000, guid: 79ca3ed42ad41c24eb703073908d65bd, type: 2}
+    dialogueObject: {fileID: 11400000, guid: a4ea6e2e5e75dde4db195cf7d3f93432, type: 2}
   - responseText: Do not seize it
-    dialogueObject: {fileID: 11400000, guid: c11b170b04f558e4ab13dff0e13992d9, type: 2}
+    dialogueObject: {fileID: 11400000, guid: a988390bacc99f14ba076cd21604ff7e, type: 2}

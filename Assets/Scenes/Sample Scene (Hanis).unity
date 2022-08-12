@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74db230e0455e7d4d847a80e684edea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: be97b7078cb48944f82a341d62cafd81, type: 2}
+  dialogueObject: {fileID: 11400000, guid: 40cfe28b6f9eafc499909ffe72a876a6, type: 2}
 --- !u!61 &216568504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1775,7 +1775,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

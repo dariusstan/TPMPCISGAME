@@ -16,4 +16,11 @@ MonoBehaviour:
   - 'You have found a Desktop!
 
 '
-  responses: []
+  responses:
+  - responseText: 'Tip: Remember not to change the state of the device (Choose either
+      one of the two options below)'
+    dialogueObject: {fileID: 0}
+  - responseText: Seize it
+    dialogueObject: {fileID: 11400000, guid: 1262d65d3ea30b5499005e4c69470dc0, type: 2}
+  - responseText: Do not Seize it
+    dialogueObject: {fileID: 11400000, guid: 6c5c1c7795587a64c9d9d6dbddfe496e, type: 2}

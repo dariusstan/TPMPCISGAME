@@ -42,9 +42,4 @@ public class ScenarioMenu : MonoBehaviour {
 
     }
 
-    private void RetryBtn()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 37);
-    }
-   
 }

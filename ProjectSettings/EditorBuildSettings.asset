@@ -129,6 +129,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Playing scene 5.unity
     guid: a261f49ebe287e945876fc708c5fddb8
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/kw 2.unity
+    guid: a9801f0010e82024483cc97dceae0068
+=======
     path: Assets/Scenes/Demo scene_2.unity
     guid: cb2e8d9dfc09450448ef2ea04d8bfc3b
+>>>>>>> 738f1ba04d044e59462304a3957fc9f144b9d04a
   m_configObjects: {}

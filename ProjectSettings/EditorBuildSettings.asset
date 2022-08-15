@@ -75,6 +75,15 @@ EditorBuildSettings:
     path: Assets/Scenes/LEARNING PAGE16.unity
     guid: 5a7bdf0e936773b4c9257c9f9afd7b6b
   - enabled: 1
+    path: Assets/Scenes/VIDEO 1.unity
+    guid: e2104577eacf0404d8b71feb459d40cf
+  - enabled: 1
+    path: Assets/Scenes/VIDEO 2.unity
+    guid: a4170fb586b22c54680f12e54141d1cb
+  - enabled: 1
+    path: Assets/Scenes/VIDEO 3.unity
+    guid: adfec14f26cdce9439963489ae8e998b
+  - enabled: 1
     path: Assets/Scenes/SCENARIO1 LEARNING PART 1.unity
     guid: 54e133004075a644a89f907c98949ba9
   - enabled: 1
@@ -120,6 +129,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Playing scene 5.unity
     guid: a261f49ebe287e945876fc708c5fddb8
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/kw 2.unity
     guid: a9801f0010e82024483cc97dceae0068
+=======
+    path: Assets/Scenes/Demo scene_2.unity
+    guid: cb2e8d9dfc09450448ef2ea04d8bfc3b
+>>>>>>> 738f1ba04d044e59462304a3957fc9f144b9d04a
   m_configObjects: {}

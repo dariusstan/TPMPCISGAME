@@ -15,6 +15,9 @@ MonoBehaviour:
   dialogue:
   - You have found a laptop that is powered on
   responses:
+  - responseText: 'Tip: Remember not to change the state of the device (Choose either
+      one of the two options below)'
+    dialogueObject: {fileID: 0}
   - responseText: Seize it
     dialogueObject: {fileID: 11400000, guid: 835bd0bf6b81313439565798af02184c, type: 2}
     correctAns: 

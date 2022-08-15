@@ -14,6 +14,7 @@ public class player_controller : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     Animator animator;
+    //AudioSource audioSrc;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class player_controller : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        //audioSrc = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate() {
@@ -38,9 +40,10 @@ public class player_controller : MonoBehaviour
                 }
                 
                 animator.SetBool("IsMoving", success);
-                
+                                
             }else {
                 animator.SetBool("IsMoving",false);
+                
             }
 
             //set the direction of the sprite
@@ -49,9 +52,8 @@ public class player_controller : MonoBehaviour
             }else if (movementInput.x > 0 ){
                 spriteRenderer.flipX = false;
             }
-            
 
-        
+           
     }
 
     private bool TryMove(Vector2 direction) {

@@ -10,12 +10,13 @@ public class player_controller : MonoBehaviour
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    public bool isMove = false;
 
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     Animator animator;
-    //AudioSource audioSrc;
+    AudioSource audioSrc;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     // Start is called before the first frame update
@@ -24,7 +25,7 @@ public class player_controller : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        //audioSrc = GetComponent<AudioSource>();
+        audioSrc = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate() {
@@ -46,6 +47,7 @@ public class player_controller : MonoBehaviour
                 animator.SetBool("IsMoving",false);
                 
             }
+            
 
             //set the direction of the sprite
             if(movementInput.x < 0 ) {
@@ -53,6 +55,8 @@ public class player_controller : MonoBehaviour
             }else if (movementInput.x > 0 ){
                 spriteRenderer.flipX = false;
             }
+            
+           
 
            
     }
@@ -72,10 +76,11 @@ public class player_controller : MonoBehaviour
         }
     }
 
-    void OnMove(InputValue movementValue) {
+    private void OnMove(InputValue movementValue) {
         movementInput = movementValue.Get<Vector2>();
 
     }
+<<<<<<< HEAD
 
     private  void OnTriggerEnter2D(Collider2D collision)
     {
@@ -84,4 +89,9 @@ public class player_controller : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
         }
     }
+=======
+    
+            
+
+>>>>>>> 96d57999bd1b6a4f2a5e65a818bbb0ea8891fbdc
 }

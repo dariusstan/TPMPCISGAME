@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
    private Rigidbody2D rb;
 
    private AudioSource audioSrc;
+   public bool isMove = false;
+   [SerializeField] private AudioSource interactsound;
+
 
    private void Start()
    {
@@ -32,17 +35,20 @@ public class Player : MonoBehaviour
     if (Input.GetKeyDown(KeyCode.Space))
     {
         Interactable?.Interact(this);
-        SFX_manager.PlaySound ("Pickupsound_1");
+        interactsound.Play();
     }
-    if (rb.velocity.x !=0)
-    {
-        if (!audioSrc.isPlaying)
-        {
-            audioSrc.Play();
-        }
-    }
-    else{
-        audioSrc.Stop();
-    }
+    if ( input.x != 0 || input.y != 0 ) 
+                isMove = true;
+            else 
+                isMove = false;
+            
+
+            //movement audio
+            if (isMove){
+                if (!audioSrc.isPlaying)
+                    audioSrc.Play ();
+            }
+            else
+                audioSrc.Stop();
    }
 }

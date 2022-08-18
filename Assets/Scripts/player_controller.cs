@@ -83,10 +83,31 @@ public class player_controller : MonoBehaviour
 
     private  void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "NextScene")
+        if(collision.tag == "NextScene1")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
         }
+
+        else if(collision.tag == "NextScene2")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
+        }
+        
+        else if(collision.tag == "NextScene3")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +3);
+        }
+        
+        else if(collision.tag == "NextScene4")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +4);
+        }
+
+        else if(collision.tag == "NextScene5")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +5);
+        }
+        
     }
 
 }

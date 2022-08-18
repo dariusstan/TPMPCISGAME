@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/kw 2.unity
+    guid: a9801f0010e82024483cc97dceae0068
+  - enabled: 1
+    path: Assets/Scenes/Summary 1 -Child Kidnap.unity
+    guid: 730ffeb2bd3bd3e47bd884abc7224fe5
+  - enabled: 1
+    path: Assets/Scenes/Summary 2 -Murder Case.unity
+    guid: 955ec60efb7ccf9448916fde14cbdd35
+  - enabled: 1
+    path: Assets/Scenes/Summary 3 -Drug Dealer.unity
+    guid: aa8b84fe66f76de47a54b39955967cb4
+  - enabled: 1
+    path: Assets/Scenes/Summary 4 -Leaking of Corporate Secrets.unity
+    guid: 5d4fa1be5efb76f4f8e5c8a1272c799e
+  - enabled: 1
+    path: Assets/Scenes/Summary 5 -Child Pornography.unity
+    guid: f306dd2b464377046b164cc11c1ffdee
   m_configObjects: {}

@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 123
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 226.4
     height: 456.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 59
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 59
   m_LastProjectPath: C:\Users\dariu\Temasek fyp\FYPGAME\TPMPCISGAME
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 39}
-    m_SelectedIDs: c46c0000
-    m_LastClickedID: 27844
-    m_ExpandedIDs: 00000000a66c000000ca9a3bffffff7f
+    m_SelectedIDs: 92650000
+    m_LastClickedID: 26002
+    m_ExpandedIDs: 000000009265000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a66c0000
+    m_ExpandedIDs: 0000000092650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 127}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 59
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 256.8001
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 046d0000
+      m_SelectedIDs: 7a060000
       m_LastClickedID: 0
-      m_ExpandedIDs: a4ceffff00d0ffffaad0ffffecd0ffff2ed1ffffc6d1ffff30d2ffff9cd2ffff36d3ffffa0d3ffff18d4ffff84d4ffff22d6ffff26d8ffff40dcffffb0dcfffff2dcffff2edeffffe2e1fffff2e2ffff5ee4ffff9ae4ffff94e6ffffd0e6ffff0ee7ffff4ce7ffff8ae7ffffc8e7fffffee7ffffc4e8fffffce8ffff44e9ffff7ce9ffffc6e9fffffee9ffff5eeaffff10ebffff4eebffffa8ebffffe8ebffffc6ecffff06edffff46edffff82edffffc6edffff14eeffff54eeffff8ceeffffc4eeffff14efffff52efffffd6efffff12f0fffff6f0ffff46f2ffff44f3ffff10f8ffff22fbffff60d3000072d300007cd30000d0dc0000f6dc000080e40000c2e60000c0090100600f0100a40f01002e10010070100100fa1001003c1101007e11010044120100d0120100
+      m_ExpandedIDs: ccdeffff02dfffff40dfffffe6dfffff24e0ffff64e0ffffa0e0ffffdae0ffff0ce1ffff48e1ffff84e2ffffb6e2fffff4e2ffff2ee3ffff66e3ffffa2e4ffffdee4ffff16e5ffff52e5ffff8ae5ffff42e6ffff78e6ffff52e7ffff8ee7ffffd4e8ffff12e9ffffb4eafffff6eaffff32ebffff6aebffffc2ebffff7aecfffff8f0ffff34f2ffffa6f5ffffe4f5ffff1ef6ffff5ef6ffffbaf6ffff1cf9ffff50f9ffff84f9ffffb8f9ffffecf9ffff20faffff0efbffff1ad000002ed000004ce9000072e900000af3000048f30000ecf30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

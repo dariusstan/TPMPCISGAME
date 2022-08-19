@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
+  m_Name: Desktop Evidence (Wrong Answer 1)
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "If investigators do not have a precise idea of the exact registry key to look
+    for, it is a **needless expenditure** of valuable time. Knowledgeable examiner
+    would look for a specific registry e.g., \u201CHKEY_users\\suspect\u2019s SID\\Software\\Windows\\CurrentVersion\\Explorer\\RecentDocs\u201D
+    which displays a comprehensive list of files opened with the associated account."
+  responses: []

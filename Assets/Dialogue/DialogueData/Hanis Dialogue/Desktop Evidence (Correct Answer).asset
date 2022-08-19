@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
+  m_Name: Desktop Evidence (Correct Answer)
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'You have chose the correct choice!
+
+    Once the PC has been identified and
+    prioritised in the triage phase, investigators will conduct a search for compelling
+    evidence on the system. It is essential to prove the link between the evidence
+    and suspect to ascertain that the individual is **responsible** for the incriminating
+    data. As there could be multiple persons that have access to the machine, it
+    is necessary to identify the correct individual unless he is a fait accompli.'
+  responses: []

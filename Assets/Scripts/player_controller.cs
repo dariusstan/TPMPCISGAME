@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class player_controller : MonoBehaviour
 {   
@@ -79,7 +80,34 @@ public class player_controller : MonoBehaviour
         movementInput = movementValue.Get<Vector2>();
 
     }
-    
-            
+
+    private  void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "NextScene1")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        }
+
+        else if(collision.tag == "NextScene2")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
+        }
+        
+        else if(collision.tag == "NextScene3")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +3);
+        }
+        
+        else if(collision.tag == "NextScene4")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +4);
+        }
+
+        else if(collision.tag == "NextScene5")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +5);
+        }
+        
+    }
 
 }

@@ -10,10 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
-  m_Name: PC correct
+  m_Name: test
   m_EditorClassIdentifier: 
   dialogue:
-  - 'This is the right choice!
-
-'
-  responses: []
+  - This is a test
+  responses:
+  - responseText: Ans
+    dialogueObject: {fileID: 0}
+    correctAns: Ans
+  - responseText: Ans
+    dialogueObject: {fileID: 0}
+    correctAns: 
+  - responseText: Ans
+    dialogueObject: {fileID: 0}
+    correctAns: 

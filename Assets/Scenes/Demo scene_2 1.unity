@@ -367,7 +367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146639955}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -288.086, y: -259.828, z: 0}
+  m_LocalPosition: {x: -304.81, y: -258.01, z: 0}
   m_LocalScale: {x: 0.5409, y: 0.554, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -529,6 +529,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueUI: {fileID: 850971324}
+  isMove: 0
+  interactsound: {fileID: 0}
 --- !u!1 &345390111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,7 +2855,6 @@ MonoBehaviour:
   ResponseBox: {fileID: 1166230639}
   responseButtonTemplate: {fileID: 362474954}
   responseContainer: {fileID: 1100831293}
-  scoreText: {fileID: 0}
 --- !u!1001 &877000965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3300,7 +3301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179670806}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -290.0018, y: -259.6636, z: 0}
+  m_LocalPosition: {x: -304.82, y: -259.72, z: 0}
   m_LocalScale: {x: 0.4565138, y: 0.4052632, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11534,7 +11535,6 @@ MonoBehaviour:
   ResponseBox: {fileID: 0}
   responseButtonTemplate: {fileID: 0}
   responseContainer: {fileID: 0}
-  scoreText: {fileID: 1648524762}
 --- !u!1 &1712843073
 GameObject:
   m_ObjectHideFlags: 0

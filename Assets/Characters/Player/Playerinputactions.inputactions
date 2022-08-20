@@ -276,7 +276,7 @@
                     "name": "",
                     "id": "1d0ed8ab-817c-49eb-a788-b1c99722ad78",
                     "path": "<Keyboard>/space",
-                    "interactions": "Press(pressPoint=2,behavior=2)",
+                    "interactions": "Press(pressPoint=2)",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "interact",

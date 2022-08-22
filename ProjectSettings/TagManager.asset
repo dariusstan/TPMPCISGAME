@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NextScene1
+  - NextScene2
+  - NextScene3
+  - NextScene4
+  - NextScene5
   layers:
   - Default
   - TransparentFX

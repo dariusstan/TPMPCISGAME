@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: Desktop Evidence (Wrong Answer 2)
   m_EditorClassIdentifier: 
   dialogue:
-  - 'That is the wrong answer!
-
-    E-mail artefacts can provide enormous evidentiary
-    value but is very time consuming. Screening all the e-mails which are usually
-    masqueraded could be **taxing** on time and not beneficial with the initial investigation.'
+  - E-mail artefacts can provide enormous evidentiary value but is very time consuming.
+    Screening all the e-mails which are usually masqueraded could be **taxing** on
+    time and not beneficial with the initial investigation.
   responses: []

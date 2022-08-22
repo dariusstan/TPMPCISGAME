@@ -50,4 +50,6 @@ public class Response_manager : MonoBehaviour
     dialogueUI.ShowDialogue(response.DialogueObject);
 
    }
+
 }
+

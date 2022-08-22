@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
+  m_Name: Laptop yes
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'You are now seizing this object
+
+    Choose the most appropriate action'
+  responses:
+  - responseText: 'Leave the laptop at its current state without changing it, afterwards
+      isolate the device from the network. Lastly, take pictures of the screen '
+    dialogueObject: {fileID: 11400000, guid: 988e9e898dcc5014fa13d31210763eb6, type: 2}
+  - responseText: Turn the laptop off hence changing its current state, but before
+      that take pictures of the screen and isolate it from the network
+    dialogueObject: {fileID: 11400000, guid: 2b9ad57e88575b34498a9f8030577ecc, type: 2}
+  - responseText: Leave the laptop at its current state without changing it, take
+      pictures of the screen, and ensure it has network connectivity
+    dialogueObject: {fileID: 11400000, guid: b7e1d8b1e2c61f84fb78ed8d71e2b883, type: 2}

@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
 <<<<<<< HEAD
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-0:
       value: 57000307550d510b0856552314275d44474e1a7d7f7b2369792a4b30b3b9373d
       flags: 0
@@ -38,6 +39,8 @@ EditorUserSettings:
       flags: 0
 =======
 >>>>>>> parent of f55cee2 (.)
+=======
+>>>>>>> 731d05be0f8946537e940102574fbef9f1c761f9
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0

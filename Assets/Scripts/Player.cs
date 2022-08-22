@@ -13,9 +13,14 @@ public class Player : MonoBehaviour
 
    private Rigidbody2D rb;
 
+   private AudioSource audioSrc;
+   public bool isMove = false;
+   [SerializeField] private AudioSource interactsound;
+
    private void Start()
    {
     rb = GetComponent<Rigidbody2D>();
+    audioSrc = GetComponent<AudioSource>();
    }
 
    private void Update()
@@ -28,6 +33,18 @@ public class Player : MonoBehaviour
     if (Input.GetKeyDown(KeyCode.Space))
     {
         Interactable?.Interact(this);
+        interactsound.Play();
     }
+    if ( input.x != 0 || input.y !=0 )
+            isMove = true;
+        else
+            isMove = false;
+
+        if (isMove){
+            if (!audioSrc.isPlaying)
+            audioSrc.Play ();
+        }
+        else
+            audioSrc.Stop();
    }
 }

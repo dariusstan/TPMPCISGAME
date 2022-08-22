@@ -434,12 +434,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have been assigned the case of "Child Pornography"
+  m_text: 'You have been assigned the case of "Illegal Online Services"
 
 
-    In this particular
-    case, the situation is that the offender is hosting an online gambling service
-    and you have to put a stop to it'
+    In
+    this particular case, the situation is that the offender is hosting an online
+    gambling service and you have to put a stop to it'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -300.61307, y: -216.79948, z: -347.0725, w: -53.108017}
+  m_margin: {x: -300.61307, y: -191.8531, z: -347.0725, w: -65.58121}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

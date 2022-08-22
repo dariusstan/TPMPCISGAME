@@ -123,7 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &2913433
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,8 +159,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &20157233
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +240,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2563706229692073487, guid: 44386f226e6d9dd42a39884fea38122e, type: 3}
   m_PrefabInstance: {fileID: 877000965}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &59741533
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,8 +320,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59741533}
   m_CullTransparentMesh: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &89638635
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,7 +563,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-<<<<<<< HEAD
   quizGameUI: {fileID: 1017170432}
 --- !u!1 &150766131
 GameObject:
@@ -700,20 +693,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 812367230}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524025469}
-=======
---- !u!114 &152570263 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2289545146965355248, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 0.31621748, g: 0.8962264, b: 0.26633143, a: 1}
   m_RaycastTarget: 1
@@ -1138,13 +1122,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206502347}
   m_CullTransparentMesh: 0
-=======
---- !u!1 &168327499 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2289545146500839525, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &298389497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,7 +1158,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &317478923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,8 +1194,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &362474953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,7 +2832,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 820, y: 120}
   m_Pivot: {x: 0.5, y: 0}
-<<<<<<< HEAD
 --- !u!1 &435374879
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,15 +3065,6 @@ CanvasRenderer:
 --- !u!114 &534172856
 MonoBehaviour:
   m_ObjectHideFlags: 0
-=======
---- !u!224 &481880743 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2289545146069452645, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &534172856 stripped
-MonoBehaviour:
->>>>>>> parent of 3afc14d (Hanis)
   m_CorrespondingSourceObject: {fileID: 2289545146500839531, guid: 768070441e182ca4cbaf49600939169d, type: 3}
   m_PrefabInstance: {fileID: 812367230}
   m_PrefabAsset: {fileID: 0}
@@ -3110,7 +3074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -3133,8 +3096,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Time:2:12
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!114 &534172859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3149,7 +3110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizGameUI: {fileID: 1017170432}
   timerUI: {fileID: 534172856}
-<<<<<<< HEAD
 --- !u!222 &534172860
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3178,8 +3138,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &535085652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,7 +3556,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 40cfe28b6f9eafc499909ffe72a876a6, type: 2}
-<<<<<<< HEAD
 --- !u!1 &670050863
 GameObject:
   m_ObjectHideFlags: 0
@@ -4051,13 +4008,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-=======
---- !u!224 &760904169 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3492420007258583250, guid: 6f95483adddbd41469bb31951a78b4c5, type: 3}
-  m_PrefabInstance: {fileID: 1027393250}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &763488991
 GameObject:
   m_ObjectHideFlags: 0
@@ -4589,7 +4539,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44386f226e6d9dd42a39884fea38122e, type: 3}
-<<<<<<< HEAD
 --- !u!114 &912674624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4597,20 +4546,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 812367230}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317478923}
-=======
---- !u!114 &912674624 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2289545145927064151, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 0.31621748, g: 0.8962264, b: 0.26633143, a: 1}
   m_RaycastTarget: 1
@@ -4673,13 +4613,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-=======
---- !u!1 &942151741 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2289545148034114670, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &960273484
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,7 +4893,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f95483adddbd41469bb31951a78b4c5, type: 3}
-<<<<<<< HEAD
 --- !u!1 &1034760391
 GameObject:
   m_ObjectHideFlags: 0
@@ -5062,8 +4994,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042581130}
   m_CullTransparentMesh: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1075710587
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,7 +5176,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0, y: 0}
-<<<<<<< HEAD
 --- !u!114 &1213099543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5254,20 +5183,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 812367230}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2913433}
-=======
---- !u!114 &1213099543 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2289545147429521707, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -5318,8 +5238,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1226421632
 GameObject:
   m_ObjectHideFlags: 0
@@ -5454,7 +5372,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226421632}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD
 --- !u!1 &1235362558
 GameObject:
   m_ObjectHideFlags: 0
@@ -5657,8 +5574,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249919603}
   m_CullTransparentMesh: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1284604212
 GameObject:
   m_ObjectHideFlags: 0
@@ -5842,7 +5757,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!224 &1325139824
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6024,13 +5938,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340622405}
   m_CullTransparentMesh: 0
-=======
---- !u!224 &1325139824 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2289545148034114671, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1342121174
 GameObject:
   m_ObjectHideFlags: 0
@@ -6241,7 +6148,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385917347}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &1395969399
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,13 +6326,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-=======
---- !u!1 &1476188892 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2289545147351810777, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!114 &1476188896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6441,7 +6340,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizGameUI: {fileID: 1017170432}
   timerUI: {fileID: 0}
-<<<<<<< HEAD
 --- !u!114 &1476188897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6581,8 +6479,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488051085}
   m_CullTransparentMesh: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1516785089
 GameObject:
   m_ObjectHideFlags: 0
@@ -14298,7 +14194,6 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
-<<<<<<< HEAD
 --- !u!1 &1552763965
 GameObject:
   m_ObjectHideFlags: 0
@@ -14536,8 +14431,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644717620}
   m_CullTransparentMesh: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1648524759
 GameObject:
   m_ObjectHideFlags: 0
@@ -14724,7 +14617,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695130308}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &1696887653
 GameObject:
   m_ObjectHideFlags: 0
@@ -14792,8 +14684,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1712843073
 GameObject:
   m_ObjectHideFlags: 0
@@ -62099,7 +61989,6 @@ Transform:
   m_Father: {fileID: 298389498}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1828270329
 GameObject:
   m_ObjectHideFlags: 0
@@ -62178,13 +62067,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 10}
   m_Pivot: {x: 0.5, y: 1}
-=======
---- !u!1 &1828270329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3492420008453341411, guid: 6f95483adddbd41469bb31951a78b4c5, type: 3}
-  m_PrefabInstance: {fileID: 1027393250}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1914915515
 GameObject:
   m_ObjectHideFlags: 0
@@ -62309,7 +62191,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!114 &1980021974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62317,20 +62198,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 812367230}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319614706}
-=======
---- !u!114 &1980021974 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2289545147355686563, guid: 768070441e182ca4cbaf49600939169d, type: 3}
-  m_PrefabInstance: {fileID: 812367230}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
->>>>>>> parent of 3afc14d (Hanis)
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_Material: {fileID: 0}
   m_Color: {r: 0.31621748, g: 0.8962264, b: 0.26633143, a: 1}
   m_RaycastTarget: 1
@@ -62377,8 +62249,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1980621822
 GameObject:
   m_ObjectHideFlags: 0
@@ -62490,7 +62360,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
 --- !u!1 &1988084204
 GameObject:
   m_ObjectHideFlags: 0
@@ -62600,8 +62469,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988084204}
   m_CullTransparentMesh: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &1991484116
 GameObject:
   m_ObjectHideFlags: 0
@@ -62737,7 +62604,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991484116}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &2019390832
 GameObject:
   m_ObjectHideFlags: 0
@@ -62831,8 +62697,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019390832}
   m_CullTransparentMesh: 0
-=======
->>>>>>> parent of 3afc14d (Hanis)
 --- !u!1 &2112729229
 GameObject:
   m_ObjectHideFlags: 0

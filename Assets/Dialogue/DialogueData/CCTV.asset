@@ -18,7 +18,10 @@ MonoBehaviour:
   - responseText: 'Tip: Remember to take pictures of the screen of the CCTV (Choose
       either one of the two options below)'
     dialogueObject: {fileID: 0}
+    correctAns: 
   - responseText: Seize it
     dialogueObject: {fileID: 11400000, guid: fbc52ab27109dd047ab714900d976984, type: 2}
+    correctAns: Seize it
   - responseText: Do not seize it
     dialogueObject: {fileID: 11400000, guid: c91aa21e531e7ef46ac2b8d522720429, type: 2}
+    correctAns: 

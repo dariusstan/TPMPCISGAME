@@ -15,12 +15,15 @@ MonoBehaviour:
   dialogue:
   - This is a test
   responses:
-  - responseText: Ans
-    dialogueObject: {fileID: 0}
-    correctAns: Ans
-  - responseText: Ans
+  - responseText: 
     dialogueObject: {fileID: 0}
     correctAns: 
-  - responseText: Ans
+  - responseText: 
+    dialogueObject: {fileID: 0}
+    correctAns: 
+  - responseText: 
+    dialogueObject: {fileID: 0}
+    correctAns: 
+  - responseText: 
     dialogueObject: {fileID: 0}
     correctAns: 

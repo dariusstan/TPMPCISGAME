@@ -3,6 +3,9 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
+    [SerializeField] private QuizGameUI quizGameUI;
+    //[SerializeField] public Text timerUI;
+    // [SerializeField] private Response response;
     public float currentHealth { get; private set; }
 
     private void Awake()
@@ -21,6 +24,9 @@ public class Health : MonoBehaviour
         else
         {
             //player dead
+            quizGameUI.GameOverPanel.SetActive(true);
+            //countDownTimer.stop();
+            //timerUI.text = "Game Ended!";
         }
     }
 
@@ -28,5 +34,14 @@ public class Health : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
             TakeDamage(1);
+        // if (selectedOption != CorrectAns)
+	    //      TakeDamage(1);
     }
+
+    /// <summary>
+    /// Method called to check the answer is correct or not
+    /// </summary>
+    /// <param name="selectedOption">answer string</param>
+    /// <returns></returns>
+
 }

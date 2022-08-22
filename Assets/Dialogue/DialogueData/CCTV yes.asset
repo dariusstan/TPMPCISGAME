@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
+  m_Name: CCTV yes
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'You are now seizing this object
+
+    Choose the most appropriate action'
+  responses:
+  - responseText: Take pictures of the screens of the device, shut the recorder down,
+      disconnect all the cables, identify model of the CCTV and lastly disconnect
+      every component and securely bring them back
+    dialogueObject: {fileID: 11400000, guid: 2990bdd0f3714a84c8692586af85f7c0, type: 2}
+  - responseText: Take pictures of the screens of the device, do not shut the recorder
+      down, disconnect all the cables, identify model of the CCTV and lastly disconnect
+      every component and securely bring them back
+    dialogueObject: {fileID: 11400000, guid: d9bb93defe1090c46afbc6ee3f932e87, type: 2}
+  - responseText: Take pictures of the screens of the device, shut the recorder down,
+      disconnect all the cables and lastly disconnect every component and securely
+      bring them back
+    dialogueObject: {fileID: 11400000, guid: 8e314d37d4ae769438081e9d707f2755, type: 2}

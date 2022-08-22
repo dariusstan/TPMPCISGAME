@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Desktop Evidence (Wrong Answer 1)
   m_EditorClassIdentifier: 
   dialogue:
-  - "That is the wrong answer!\nIf investigators do not have a precise idea of the
-    exact registry key to look for, it is a needless expenditure of valuable time.
-    Knowledgeable examiner would look for a specific registry e.g., \u201CHKEY_users\\suspect\u2019s
-    SID\\Software\\Windows\\CurrentVersion\\Explorer\\RecentDocs\u201D which displays
-    a comprehensive list of files opened with the associated account."
+  - "If investigators do not have a precise idea of the exact registry key to look
+    for, it is a **needless expenditure** of valuable time. Knowledgeable examiner
+    would look for a specific registry e.g., \u201CHKEY_users\\suspect\u2019s SID\\Software\\Windows\\CurrentVersion\\Explorer\\RecentDocs\u201D
+    which displays a comprehensive list of files opened with the associated account."
   responses: []

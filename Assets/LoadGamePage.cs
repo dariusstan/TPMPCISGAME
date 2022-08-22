@@ -7,7 +7,7 @@ public class LoadGamePage : MonoBehaviour {
 
     public void PlayingPage(){
 
-        SceneManager.LoadScene(36);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
     

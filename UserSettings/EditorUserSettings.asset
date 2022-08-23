@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< Updated upstream
       value: 56040350540d5a0a5b085b26477a5c44411648292f2a77327b794d30e6b8366e
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -19,6 +20,21 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-4:
       value: 02080c565453590b5c5e097a42730d44424f4b292f7171342e2c1c36b2b06260
+=======
+      value: 005306035d51505f0b0d5c7b44760f44424f1d2c7e2d2760792d4531e4e3673a
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 57000307550d510b0856552314275d44474e1a7d7f7b2369792a4b30b3b9373d
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 520307040700500c5b5f5a7549745e44144e4d2b7b2b70642c794c35bab5643e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 505356055606500d585d0a7b15735c44451641782a7e2460292f4c67e4b63039
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5b03505f03025b59555e5b714127074417164f73297c75617f2b4b63b7e53169
+>>>>>>> Stashed changes
       flags: 0
     RecentlyUsedSceneGuid-5:
       value: 5650025252035c5f0e580f7148200644174e1b732d71753574704563e0e5673d
@@ -28,12 +44,15 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 56550005010d5a0e59580d20137b0e4447151978287b74357a7a4965b4b16439
+<<<<<<< Updated upstream
       flags: 0
     RecentlyUsedSceneGuid-8:
       value: 0101560206505a0f5d0c0f7144270b444e4f4f2e752d7f6778794d32b6b66260
+=======
+>>>>>>> Stashed changes
       flags: 0
-    RecentlyUsedSceneGuid-9:
-      value: 5b03505f03025b59555e5b714127074417164f73297c75617f2b4b63b7e53169
+    RecentlyUsedSceneGuid-8:
+      value: 5650025252035c5f0e580f7148200644174e1b732d71753574704563e0e5673d
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
@@ -43,7 +62,7 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
-  m_DesiredImportWorkerCount: 3
+  m_DesiredImportWorkerCount: 2
   m_StandbyImportWorkerCount: 2
   m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1

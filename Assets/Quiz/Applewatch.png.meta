@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2f3f1c58634036441aaedb0caf20eeb6
+guid: 153c49b602d5319408eff20a220c4439
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pc_0
+      name: Applewatch_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 622
-        width: 571
-        height: 571
+        x: 0
+        y: 264
+        width: 256
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7575df4dd833eb800800000000000000
-      internalID: 629997682135226199
+      spriteID: 30aacb9778bca4b498a79279b3bf6af4
+      internalID: 412648622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pc_1
+      name: Applewatch_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 13
-        width: 571
-        height: 571
+        x: 0
+        y: 8
+        width: 256
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10821cfd00378104f874df8807b9b3da
-      internalID: 656872094
+      spriteID: 77bd89e9e9e877a45b7de4212e9a9ccb
+      internalID: -1934120906
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 80788998f8f6041439dbc21c2e228850
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -168,8 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pc_0: 629997682135226199
-      pc_1: 656872094
+      Applewatch_0: 412648622
+      Applewatch_1: -1934120906
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

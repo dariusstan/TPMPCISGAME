@@ -13,24 +13,7 @@ MonoBehaviour:
   m_Name: HDD correct
   m_EditorClassIdentifier: 
   dialogue:
-<<<<<<< HEAD:Assets/Quiz/Scripts/test.asset
-  - This is a test
-  responses:
-  - responseText: 
-    dialogueObject: {fileID: 0}
-    correctAns: 
-  - responseText: 
-    dialogueObject: {fileID: 0}
-    correctAns: 
-  - responseText: 
-    dialogueObject: {fileID: 0}
-    correctAns: 
-  - responseText: 
-    dialogueObject: {fileID: 0}
-    correctAns: 
-=======
   - 'This is the right choice!
 
 '
   responses: []
->>>>>>> 32028824b07c7e5c0b75a4b50e8f88bb25858d84:Assets/Dialogue/DialogueData/PC correct.asset

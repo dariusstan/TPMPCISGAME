@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PC
   m_EditorClassIdentifier: 
   dialogue:
-  - You have found a laptop that is powered on
+  - You have found a computer that is powered on
   responses:
   - responseText: 'Tip: Ensure that the state is not changed (Choose either one of
       the two options below)'

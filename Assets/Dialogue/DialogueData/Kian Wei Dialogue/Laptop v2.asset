@@ -16,6 +16,6 @@ MonoBehaviour:
   - You have found a Laptop!
   responses:
   - responseText: Seize it
-    dialogueObject: {fileID: 11400000, guid: fbc52ab27109dd047ab714900d976984, type: 2}
+    dialogueObject: {fileID: 11400000, guid: ba6bbb4d7d0e4d3498e5d21ba63c19c5, type: 2}
   - responseText: Do not seize it
     dialogueObject: {fileID: 11400000, guid: e471a0d601086eb46902e7d7ecd72aff, type: 2}

@@ -13,7 +13,7 @@ public class CountDownTimer : MonoBehaviour
 
     //[SerializeField] Text countdownText;
     [SerializeField] private QuizGameUI quizGameUI;
-    int countDownStartValue = 300;
+    int countDownStartValue = 5;
     public Text timerUI;
 
     // Start is called before the first frame update
@@ -37,6 +37,7 @@ public class CountDownTimer : MonoBehaviour
         {
             quizGameUI.GameOverPanel.SetActive(true);
             timerUI.text = "Game Ended!";
+            Time.timeScale = 0f;
         }
     }
 

@@ -25,19 +25,19 @@ public class NextLearning : MonoBehaviour {
 
     public void OpenLink1(){
 
-        SceneManager.LoadScene(23);
+        Application.OpenURL("https://youtu.be/a-qHhpa8tqQ");
 
     }
 
     public void OpenLink2(){
 
-        SceneManager.LoadScene(24);
+        Application.OpenURL("https://youtu.be/Zg5ex8WZUao");
 
     }
 
     public void OpenLink3(){
 
-        SceneManager.LoadScene(25);
+        Application.OpenURL("https://youtu.be/ZUqzcQc_syE");
 
     }
 

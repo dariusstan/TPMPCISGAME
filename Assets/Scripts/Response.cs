@@ -5,9 +5,9 @@ public class Response
 {
    [SerializeField] private string responseText;
    [SerializeField] private DialogueObject dialogueObject;
-   //[SerializeField] private string correctAns;
 
    public string ResponseText => responseText;
 
    public DialogueObject DialogueObject => dialogueObject;
+
 }

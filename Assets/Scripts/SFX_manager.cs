@@ -4,26 +4,24 @@ using UnityEngine;
 
 public class SFX_manager : MonoBehaviour
 {
-    public static AudioClip interact;
+    public static AudioClip Interact;
     static AudioSource audiosource;
+    
     // Start is called before the first frame update
     void Start()
     {
-        interact = Resources.Load<AudioClip> ("Pickup_1");
-        
-        audiosource = GetComponent<AudioSource> ();
-        
+        Interact = Resources.Load<AudioClip> ("Pickup");
+        audiosource = GetComponent<AudioSource>();
     }
-
-    
-        
     public static void PlaySound (string clip)
     {
         switch (clip){
-            case "Pickup_1":
-            audiosource.PlayOneShot (interact);
+            case "Pickup":
+            audiosource.PlayOneShot (Interact);
             break;
         }
-
     }
+
+    // Update is called once per frame
+    
 }

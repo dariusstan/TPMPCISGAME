@@ -52,4 +52,3 @@ public class Response_manager : MonoBehaviour
    }
 
 }
-

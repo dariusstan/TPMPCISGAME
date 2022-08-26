@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Music_control : MonoBehaviour
 {
-    public static Music_control instance;
+   public static Music_control instance;
 
-    private void Awake()
+   private void Awake()
+   {
+    DontDestroyOnLoad(this.gameObject);
+    if (instance == null)
     {
-        DontDestroyOnLoad(this.gameObject);
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        instance = this;
     }
+    else
+    {
+        Destroy(gameObject);
+    }
+   }
 }

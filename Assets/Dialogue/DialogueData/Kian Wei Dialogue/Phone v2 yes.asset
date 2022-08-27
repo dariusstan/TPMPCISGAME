@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Phone v2 yes
   m_EditorClassIdentifier: 
   dialogue:
-  - Question
+  - How to ensure data integrity?
   responses:
-  - responseText: Not Ans
+  - responseText: Using the golden copy for your forensics analysis
     dialogueObject: {fileID: 11400000, guid: 4903832e81a68244c8ff4e9c298cfb22, type: 2}
-  - responseText: Not Ans
+  - responseText: Not having to fill in the Chain of Custody(COC)
     dialogueObject: {fileID: 11400000, guid: 4903832e81a68244c8ff4e9c298cfb22, type: 2}
-  - responseText: Ans
+  - responseText: Having image copies and make sure to check the hash value for the
+      evidences
     dialogueObject: {fileID: 11400000, guid: cef980e5b8b20084b808cd321d50d0b9, type: 2}

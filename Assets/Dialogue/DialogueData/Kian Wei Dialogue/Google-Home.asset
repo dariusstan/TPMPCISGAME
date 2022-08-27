@@ -16,6 +16,6 @@ MonoBehaviour:
   - You have found a Google Home!
   responses:
   - responseText: Seize it
-    dialogueObject: {fileID: 11400000, guid: 8359b0dd2babd3c4b874470851e2fef4, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 4903832e81a68244c8ff4e9c298cfb22, type: 2}
   - responseText: Do not seize it
-    dialogueObject: {fileID: 11400000, guid: e471a0d601086eb46902e7d7ecd72aff, type: 2}
+    dialogueObject: {fileID: 11400000, guid: e379113fbd4bb2844a4155c1f207c7de, type: 2}

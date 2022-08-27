@@ -4145,7 +4145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74db230e0455e7d4d847a80e684edea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: 840032fa7e4ffec4d9ef2ac815d49673, type: 2}
+  dialogueObject: {fileID: 11400000, guid: 31426754a1bcd4845942ee2e0ddc093d, type: 2}
   isExclamation: 0
 --- !u!95 &767335927
 Animator:

@@ -16,6 +16,6 @@ MonoBehaviour:
   - You have found a thumbdrive!
   responses:
   - responseText: Seize it
-    dialogueObject: {fileID: 11400000, guid: 2dc2138b053268343aac74bca0695e7e, type: 2}
-  - responseText: Do no seize it
-    dialogueObject: {fileID: 11400000, guid: e471a0d601086eb46902e7d7ecd72aff, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 4903832e81a68244c8ff4e9c298cfb22, type: 2}
+  - responseText: Do not seize it
+    dialogueObject: {fileID: 11400000, guid: e379113fbd4bb2844a4155c1f207c7de, type: 2}

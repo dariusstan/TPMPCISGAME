@@ -36,7 +36,7 @@ public class Response_manager : MonoBehaviour
         ResponseBox.sizeDelta = new Vector2(ResponseBox.sizeDelta.x, responseBoxHeight);
         ResponseBox.gameObject.SetActive(true);
    }
-
+    //method below uses private
    private void OnPickedResponse(Response response)
    {
     ResponseBox.gameObject.SetActive(false);

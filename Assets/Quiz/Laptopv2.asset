@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
+  m_Name: Laptopv2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - You have found a laptop!
+  responses:
+  - responseText: Seize it
+    dialogueObject: {fileID: 11400000, guid: 9069a7f36a9ad984ca8a66a3faddabc1, type: 2}
+    isTrue: 1
+    correctAns: Seize it
+  - responseText: Do not seize it
+    dialogueObject: {fileID: 11400000, guid: da67c8e057dffd24c916a2f63a57f20d, type: 2}
+    isTrue: 1
+    correctAns: none

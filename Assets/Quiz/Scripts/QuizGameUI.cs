@@ -10,20 +10,22 @@ public class QuizGameUI : MonoBehaviour
     [SerializeField] private Text timerText;
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject summaryMenu;
 #pragma warning restore 649
 
 
     public Text TimerText { get => timerText; }                                   //getter
     public GameObject GameOverPanel { get => gameOverPanel; }                     //getter
-    public GameObject PauseMenu { get => pauseMenu; }                     //getter
+    public GameObject PauseMenu { get => pauseMenu; }                             //getter
+    public GameObject SummaryMenu { get => summaryMenu; }
 
-    public void RestryButton()
+    public void RetryButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex );
         Time.timeScale = 1f;
     }
 
-    public void OhterSceneButton()
+    public void OtherSceneButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 22);
     }
@@ -36,6 +38,17 @@ public class QuizGameUI : MonoBehaviour
     public void Resume()
     {
         PauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void YesBtn()
+    {
+        SceneManager.LoadScene(34);
+    }
+
+    public void NoBtn()
+    {
+        SummaryMenu.SetActive(false);
         Time.timeScale = 1f;
     }
 

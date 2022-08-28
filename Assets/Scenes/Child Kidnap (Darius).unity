@@ -4766,6 +4766,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7756342147961634282, guid: 44386f226e6d9dd42a39884fea38122e, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9213865995351921968, guid: 44386f226e6d9dd42a39884fea38122e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4809,8 +4813,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b6905fb149bc33e4ab39469c79c60ea0, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.25
+  m_Pitch: 1.15
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -4905,7 +4909,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ba4def8cc7592fc4e813339b992ad843, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0

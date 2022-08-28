@@ -434,13 +434,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have been assigned the case of "Child Kidnap". The child has been
-    kidnapped while he was outside on hia way back home
+  m_text: 'You have been assigned the case of "Child Kidnap". The six year old child
+    has been kidnapped while he was outside on his way back home
 
 
-    Here are the few things
-    you need to take note of, such as prioritising what kind of evidences to look
-    for
+    Here are the
+    few things you need to take note of, such as prioritising what kind of evidences
+    to look for and bringing back the right things
 
 
 '
@@ -470,8 +470,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -506,7 +506,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -165.15823, y: -184.72533, z: -186.04022, w: -98.43869}
+  m_margin: {x: -216.87372, y: -184.72533, z: -272.7397, w: -81.707214}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -557,7 +557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.66, y: -98.4}
+  m_AnchoredPosition: {x: -54.66, y: -114.4}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212116955

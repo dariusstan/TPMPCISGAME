@@ -1,100 +1,64 @@
- /// <summary>
-    /// Method called to check the answer is correct or not
-    /// </summary>
-    /// <param name="selectedOption">answer string</param>
-    /// <returns></returns>
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-//     public bool Answer(string selectedOption)
+
+public class Healthv2 : MonoBehaviour{
+
+// public Response response;
+// public Health health;
+// public Response_manager responseman;
+
+//     public void Answer()//bool result)
 //     {
-//         //set default to false
-//         bool correct = false;
-//         //if selected answer is similar to the correctAns
-//         if (selectedQuetion.correctAns == selectedOption) //not equal !=
+//         if (response.responseText != response.correctAns)
 //         {
-//             //Yes, Ans is correct
-//             correctAnswerCount++;
-//             correct = true;
-//             gameScore += 50;
-//             quizGameUI.ScoreText.text = "Score:" + gameScore;
+//             health.TakeDamage(1);
 //         }
-//         else
-//         {
-//             //No, Ans is wrong
-//             //Reduce Life
-//             lifesRemaining--;
-//             quizGameUI.ReduceLife(lifesRemaining);
-
-//             if (lifesRemaining == 0)
-//             {
-//                 GameEnd();
-//             }
-//         }
-//     }
-
-// public string correctAns;           //correct option
-
-
-
-// using System;
-// using System.Collections;
-// using System.Collections.Generic;
-// using UnityEngine;
-
-// using UnityEngine.UI;
-
-// public class Healthv2 : MonoBehaviour
-// {
-//     #pragma warning disable 649
-//         //ref to the QuizGameUI script
-//         [SerializeField] private QuizGameUI quizGameUI;
-//         [SerializeField] private Response response;
-//         [SerializeField] private List<Image> lifeImageList;
-//     #pragma warning restore 649
-
-// 	private int lifesRemaining;
-
-//     /// <summary>
-//     /// Method called to check the answer is correct or not
-//     /// </summary>
-//     /// <param name="selectedOption">answer string</param>
-//     /// <returns></returns>
-
-
-//     public bool Answer(string selectedOption)
-//     {
-//         bool correct = false;
-//         if (response.correctAns != selectedOption)
-//         {
-//             lifesRemaining--;
-//             quizGameUI.ReduceLife(lifesRemaining);
-
-//             if (lifesRemaining == 0)
-//             {
-//                 quizGameUI.GameOverPanel.SetActive(true);
-                
-//             }
-
-//         }
-//         return correct;
 
 //     }
-//     public string correctAns;  
-// }
+    //for UI
+    // [SerializeField] private List<Image> lifeImageList;
+
+    // private QuizGameUI quizGameUI;
+    // private Response response;
+    // private int lifesRemaining;
+    // private Response_manager responseMan;
+
+    // public void start()
+    // {
+    //     lifesRemaining = 3;
+    // }
 
 
-// public class Healthv2 : MonoBehaviour
-// {
-// #pragma warning disable 649
-//     //ref to the QuizGameUI script
-//     [SerializeField] private QuizGameUI ForHealth;
-//     //ref to the scriptableobject file
-//     [SerializeField] private List<Response> responseList;
-// #pragma warning restore 649
+    // public void Answer()
+    // {
+    //     //bool correct = true;
+    //     //if selected answer is similar to the correctAns
+    //     if ( responseMan.OnPickedResponse() != response.ResponseText)
+    //     {
+    //         //correct = false;
+    //         lifesRemaining--;
+    //         ReduceLife(lifesRemaining);
+    //     }
+    //     else
+    //     {
+    //         //nothing happens
+    //     }
 
-//     private int gameScore;
-//     private int lifesRemaining;
-//     private Response responseList;
+    //     if (lifesRemaining == 0)
+    //     {
+    //         quizGameUI.GameOverPanel.SetActive(true);
+    //     }
+    //     //return correct;
+    // }
 
-   
-//     public List<Response> QuizData { get => responseList; }
-// }
+    // public void ReduceLife(int remainingLife)
+    // {
+    //     lifeImageList[remainingLife].color = Color.red;
+    // }
+
+    
+}

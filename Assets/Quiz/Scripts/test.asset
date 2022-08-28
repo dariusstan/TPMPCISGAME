@@ -17,10 +17,13 @@ MonoBehaviour:
   responses:
   - responseText: Ans
     dialogueObject: {fileID: 0}
+    isTrue: 0
     correctAns: Ans
   - responseText: Ans
     dialogueObject: {fileID: 0}
+    isTrue: 0
     correctAns: 
   - responseText: Ans
     dialogueObject: {fileID: 0}
+    isTrue: 1
     correctAns: 

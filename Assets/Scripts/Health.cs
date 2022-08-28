@@ -4,8 +4,8 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
     [SerializeField] private QuizGameUI quizGameUI;
-    //[SerializeField] public Text timerUI;
     [SerializeField] private Response response;
+    [SerializeField] private Response_manager ResponseMan;
     public float currentHealth { get; private set; }
 
     private void Awake()
@@ -25,8 +25,7 @@ public class Health : MonoBehaviour
         {
             //player dead
             quizGameUI.GameOverPanel.SetActive(true);
-            //countDownTimer.stop();
-            //timerUI.text = "Game Ended!";
+
         }
     }
 
@@ -34,7 +33,8 @@ public class Health : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
             TakeDamage(1);
-        // if (OnPickedResponse(response).isTrue != answer)
+
+        // if (ResponseMan.OnPickedResponse(response).isTrue != answer)
 	    //     TakeDamage(1);
     }
 

@@ -15,4 +15,5 @@ public class onclickpause : MonoBehaviour {
 		quizGameUI.PauseMenu.SetActive(true);
 		Time.timeScale = 0f;
 	}
+
 }

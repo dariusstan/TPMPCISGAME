@@ -3207,16 +3207,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'USE WASD TO CONTROL YOUR CHARACTER
-
-
-    BASED ON THE SCENARIO, WALK UP
-    TO THE MOST APPROPRIATE OBJECT IN THE ROOM AND CHOOSE THE BEST OPTION
-
-
-    ON
-    THE NEXT PAGE, THERE WILL BE A TABLE OF CONTENTS FOR YOU TO NAVIGATE AROUND THE
-    INFORMATION THAT YOU NEED TO KNOW
+  m_text: 'ON THE NEXT PAGE, THERE WILL BE A TABLE OF CONTENTS FOR YOU TO NAVIGATE
+    AROUND THE INFORMATION THAT YOU NEED TO KNOW
 
 
 '
@@ -3531,7 +3523,7 @@ GameObject:
   - component: {fileID: 1847223506}
   - component: {fileID: 1847223505}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: 'Canvas '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

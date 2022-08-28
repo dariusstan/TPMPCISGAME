@@ -547,6 +547,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.655, y: 0.45406294}
   m_EdgeRadius: 0
+--- !u!1 &113391171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 474781117685961577, guid: 1b93f6c74f5c9d74493cde9f2c5a976f, type: 3}
+  m_PrefabInstance: {fileID: 3348379920243244872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &113391173 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 474781117685961575, guid: 1b93f6c74f5c9d74493cde9f2c5a976f, type: 3}
+  m_PrefabInstance: {fileID: 3348379920243244872}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113391171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &113391175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113391171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5788a2b2ba0f650498f6df031e3f8c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizGameUI: {fileID: 1017170432}
+  timerUI: {fileID: 113391173}
 --- !u!1 &129310130
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,8 +651,6 @@ MonoBehaviour:
   response:
     responseText: 
     dialogueObject: {fileID: 0}
-    isTrue: 0
-    correctAns: 
   ResponseMan: {fileID: 0}
 --- !u!1 &298389497
 GameObject:
@@ -2308,17 +2336,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 513983941, guid: 1b93f6c74f5c9d74493cde9f2c5a976f, type: 3}
   m_PrefabInstance: {fileID: 3348379920243244872}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &534172856 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3580868450126101085, guid: 1b93f6c74f5c9d74493cde9f2c5a976f, type: 3}
-  m_PrefabInstance: {fileID: 3348379920243244872}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &641247722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,7 +3127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf25bcecae8be546926d24f041ecf10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeImageList: []
 --- !u!4 &1162203811
 Transform:
   m_ObjectHideFlags: 0
@@ -59217,6 +59233,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1017170432}
+    - target: {fileID: 474781116791960100, guid: 1b93f6c74f5c9d74493cde9f2c5a976f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 174.61
+      objectReference: {fileID: 0}
     - target: {fileID: 3580868449959004866, guid: 1b93f6c74f5c9d74493cde9f2c5a976f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -59373,7 +59393,7 @@ PrefabInstance:
     - target: {fileID: 5322071582547640635, guid: 524167b36aca1564caff8a227a9f1e12, type: 3}
       propertyPath: timerText
       value: 
-      objectReference: {fileID: 534172856}
+      objectReference: {fileID: 113391173}
     - target: {fileID: 5322071582547640635, guid: 524167b36aca1564caff8a227a9f1e12, type: 3}
       propertyPath: summaryMenu
       value: 

@@ -43,7 +43,7 @@ public class QuizGameUI : MonoBehaviour
 
     public void YesBtn()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(34);
     }
 
     public void NoBtn()

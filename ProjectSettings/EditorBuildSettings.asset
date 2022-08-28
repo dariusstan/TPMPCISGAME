@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro scene.unity
     guid: 417a0880e89addb419b733e94c6c19ce
   - enabled: 1
-    path: Assets/Scenes/Tutorial explanation.unity
-    guid: a965937f678046e47a1ab82b748e52a3
+    path: Assets/Scenes/Tutorial explain.unity
+    guid: d096048fb598e6e419b2ed94c9922e15
   - enabled: 1
-    path: Assets/Scenes/Actual tutorial.unity
-    guid: e4a092b1752f03a44a330e4704e809cb
+    path: Assets/Scenes/Before actual tutorial.unity
+    guid: 9933b8a4a7b9687488480e2e7916c0d9
+  - enabled: 1
+    path: Assets/Scenes/Tutorial gameplay.unity
+    guid: 038cffccaec410f4a8c172690fefb780
   - enabled: 1
     path: Assets/Scenes/Scenario scene.unity
     guid: 3bbc339653f9e0c43a92f6b0df14f6da

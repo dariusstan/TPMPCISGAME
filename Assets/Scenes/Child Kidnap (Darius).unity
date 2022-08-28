@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 840032fa7e4ffec4d9ef2ac815d49673, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &66232609
 Animator:
   serializedVersion: 4
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 68c12f182db7c354b965d2b26168ce99, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &244823762
 Animator:
   serializedVersion: 4
@@ -5172,7 +5172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: a2c3f31bd96ca1f469b2b514adef45a3, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &820004463
 Animator:
   serializedVersion: 4
@@ -5319,7 +5319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 03b918816738f4b4ca572219b1347954, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &957036039
 Animator:
   serializedVersion: 4
@@ -16324,7 +16324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 9a234531a333aee4a974242c77d810c1, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &1672030281
 Animator:
   serializedVersion: 4

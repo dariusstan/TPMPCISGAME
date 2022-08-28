@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class player_controller : MonoBehaviour
 {   
@@ -9,6 +10,8 @@ public class player_controller : MonoBehaviour
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+
+    [SerializeField] QuizGameUI quizGameUI;
 
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
@@ -73,4 +76,14 @@ public class player_controller : MonoBehaviour
         movementInput = movementValue.Get<Vector2>();
 
     }
+
+    private void OnTriggerEnter2D(Collider2D collison)
+    {
+        if(collison.tag == "NextScene1")
+        {
+            Time.timeScale = 0f;
+            quizGameUI.SummaryMenu.SetActive(true);
+        }
+    }
 }
+

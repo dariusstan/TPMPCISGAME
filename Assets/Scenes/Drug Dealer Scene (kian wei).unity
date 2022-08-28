@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 248750c1090f04f42b066989fa16e5aa, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!61 &46434573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3700,7 +3700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: f7a9c6009934a684ba7941611ac85951, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &583328156
 Animator:
   serializedVersion: 4
@@ -4530,7 +4530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 31426754a1bcd4845942ee2e0ddc093d, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &767335927
 Animator:
   serializedVersion: 4
@@ -16427,7 +16427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: de351a190f1da4d44835c68664418d95, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!95 &1642797275
 Animator:
   serializedVersion: 4
@@ -17817,7 +17817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: fdcbf917e9c7b434ab3e58622e116e83, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!1 &1836229132
 GameObject:
   m_ObjectHideFlags: 0
@@ -23911,7 +23911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: ae09e03f76507ed40b3a6cf208665047, type: 2}
-  isExclamation: 0
+  isExclamation: 1
 --- !u!61 &2019364630
 BoxCollider2D:
   m_ObjectHideFlags: 0

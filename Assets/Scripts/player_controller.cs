@@ -85,11 +85,6 @@ public class player_controller : MonoBehaviour
             quizGameUI.SummaryMenu.SetActive(true);
         }
 
-        if(collison.tag == "NextScene2")
-        {
-            Time.timeScale = 0f;
-            quizGameUI.SummaryMenu.SetActive(true);
-        }
     }
 }
 

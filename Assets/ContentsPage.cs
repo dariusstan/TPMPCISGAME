@@ -25,75 +25,77 @@ public class ContentsPage : MonoBehaviour
 
     public void SimpleTerms(){
 
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(9);
 
     }
 
     public void SOP(){
 
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(13);
 
     }
 
     public void PCLAPTOP(){
 
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene(15);
 
     }
 
     public void HDD(){
 
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(16);
 
     }
 
     public void SMARTDEVICES(){
 
-        SceneManager.LoadScene(14);
+        SceneManager.LoadScene(17);
 
     }
 
     public void CAMERAS(){
 
-        SceneManager.LoadScene(16);
+        SceneManager.LoadScene(19);
 
     }
 
     public void CONSOLES(){
 
-        SceneManager.LoadScene(17);
+        SceneManager.LoadScene(20);
 
     }
 
     public void CCTV(){
 
-        SceneManager.LoadScene(18);
+        SceneManager.LoadScene(21);
 
     }
 
     public void INFO1(){
 
-        SceneManager.LoadScene(19);
+        SceneManager.LoadScene(22);
 
     }
 
     public void INFO2(){
 
-        SceneManager.LoadScene(20);
+        SceneManager.LoadScene(23);
 
     }
 
     public void FirstResponder(){
 
-        SceneManager.LoadScene(21);
+        SceneManager.LoadScene(24);
 
     }
 
     public void Video(){
 
-        SceneManager.LoadScene(22);
+        SceneManager.LoadScene(25);
 
     }
+
+    
 
 
 }

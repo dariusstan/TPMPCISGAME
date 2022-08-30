@@ -10,8 +10,10 @@ public class player_controller : MonoBehaviour
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    private AudioSource audioSrc;
 
     [SerializeField] QuizGameUI quizGameUI;
+    [SerializeField] private AudioSource doorsound;
 
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
@@ -25,6 +27,7 @@ public class player_controller : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSrc = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate() {
@@ -83,6 +86,7 @@ public class player_controller : MonoBehaviour
         {
             Time.timeScale = 0f;
             quizGameUI.SummaryMenu.SetActive(true);
+            doorsound.Play();
         }
 
     }

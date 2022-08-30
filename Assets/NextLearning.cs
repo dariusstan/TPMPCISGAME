@@ -25,43 +25,48 @@ public class NextLearning : MonoBehaviour {
 
     public void OpenLink1(){
 
-        Application.OpenURL("https://youtu.be/a-qHhpa8tqQ");
+        SceneManager.LoadScene(26);
 
     }
 
     public void OpenLink2(){
 
-        Application.OpenURL("https://youtu.be/Zg5ex8WZUao");
-
+        SceneManager.LoadScene(27);
     }
 
     public void OpenLink3(){
 
-        Application.OpenURL("https://youtu.be/ZUqzcQc_syE");
+        SceneManager.LoadScene(28);
 
     }
 
     public void Content1(){
 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(5);
 
     }
 
     public void Content2(){
 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(6);
 
     }
 
     public void Content3(){
 
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(7);
 
     }
 
     public void Content4(){
 
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(8);
+
+    }
+
+    public void VideoGoBack(){
+
+        SceneManager.LoadScene(25);
 
     }
     

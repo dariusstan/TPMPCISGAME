@@ -20,10 +20,13 @@ MonoBehaviour:
   - responseText: Connect the HDD to a write blocker to access the data inside of
       it, afterwards transferring the data to a thumbdrive and bringing it back
     dialogueObject: {fileID: 11400000, guid: a67000e41464c8d409b6b6899bb521ba, type: 2}
+    isWrong: 0
   - responseText: Connect the HDD to a pc/laptop to access the data inside of it
       without harming the integrity of it, afterwards transferring the data to a
       thumbdrive and bringing it back
     dialogueObject: {fileID: 11400000, guid: 830cb02257b12d14ba297a9f739bb87a, type: 2}
+    isWrong: 1
   - responseText: Connect the HDD to a usb docking station to access the data inside
       of it, afterwards transferring the data to a thumbdrive and bringing it back
     dialogueObject: {fileID: 11400000, guid: 0e38d558de9d3924bb1e96282faef1ff, type: 2}
+    isWrong: 1

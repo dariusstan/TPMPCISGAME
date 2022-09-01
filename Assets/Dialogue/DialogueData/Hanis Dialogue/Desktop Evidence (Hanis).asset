@@ -19,5 +19,7 @@ MonoBehaviour:
   responses:
   - responseText: Yes!
     dialogueObject: {fileID: 11400000, guid: f7ec14a0ffb5fdc429914f4b6242e367, type: 2}
+    isWrong: 0
   - responseText: No!
     dialogueObject: {fileID: 11400000, guid: 094a086c6fc365046bffcea487d74356, type: 2}
+    isWrong: 0

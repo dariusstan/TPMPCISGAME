@@ -27,12 +27,14 @@ public class QuizGameUI : MonoBehaviour
 
     public void OtherSceneButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 22);
+        SceneManager.LoadScene(4);
+        Time.timeScale = 1f;
     }
 
     public void mMainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 38);
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
     }
 
     public void Resume()
@@ -44,6 +46,7 @@ public class QuizGameUI : MonoBehaviour
     public void YesBtn()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1f;
     }
 
     public void NoBtn()

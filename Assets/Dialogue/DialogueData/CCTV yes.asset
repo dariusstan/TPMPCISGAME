@@ -21,11 +21,14 @@ MonoBehaviour:
       disconnect all the cables, identify model of the CCTV and lastly disconnect
       every component and securely bring them back
     dialogueObject: {fileID: 11400000, guid: 2990bdd0f3714a84c8692586af85f7c0, type: 2}
+    isWrong: 0
   - responseText: Take pictures of the screens of the device, do not shut the recorder
       down, disconnect all the cables, identify model of the CCTV and lastly disconnect
       every component and securely bring them back
     dialogueObject: {fileID: 11400000, guid: d9bb93defe1090c46afbc6ee3f932e87, type: 2}
+    isWrong: 1
   - responseText: Take pictures of the screens of the device, shut the recorder down,
       disconnect all the cables and lastly disconnect every component and securely
       bring them back
     dialogueObject: {fileID: 11400000, guid: 8e314d37d4ae769438081e9d707f2755, type: 2}
+    isWrong: 1

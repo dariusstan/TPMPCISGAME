@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
+  m_Name: HDD
+  m_EditorClassIdentifier: 
+  dialogue:
+  - You have found a HDD!
+  responses:
+  - responseText: 'Tip: This can used to store information to be shared'
+    dialogueObject: {fileID: 0}
+    isWrong: 0
+  - responseText: Seize it
+    dialogueObject: {fileID: 11400000, guid: b73037f78945e6f4a9825e44c0a638d6, type: 2}
+    isWrong: 0
+  - responseText: Do not seize it
+    dialogueObject: {fileID: 11400000, guid: d9723d5f14b76ce44996891d46958959, type: 2}
+    isWrong: 0

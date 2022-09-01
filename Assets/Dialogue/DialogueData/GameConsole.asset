@@ -18,7 +18,10 @@ MonoBehaviour:
   - responseText: 'Tip: Remember to disconnect everything(Choose either one of the
       two options below)'
     dialogueObject: {fileID: 0}
+    isWrong: 0
   - responseText: Seize it
     dialogueObject: {fileID: 11400000, guid: 79ca3ed42ad41c24eb703073908d65bd, type: 2}
+    isWrong: 0
   - responseText: Do not seize it
     dialogueObject: {fileID: 11400000, guid: c11b170b04f558e4ab13dff0e13992d9, type: 2}
+    isWrong: 0

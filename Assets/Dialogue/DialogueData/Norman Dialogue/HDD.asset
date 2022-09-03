@@ -15,13 +15,12 @@ MonoBehaviour:
   dialogue:
   - You have found a HDD!
   responses:
-  - responseText: 'Tip: Remember to transfer the data to a thumbdrive (Choose either
-      one of the two options below)'
+  - responseText: 'Tip: This can used to store information to be shared'
     dialogueObject: {fileID: 0}
     isWrong: 0
   - responseText: Seize it
-    dialogueObject: {fileID: 11400000, guid: 782d27961ec1add418c5d88fd8aaad9d, type: 2}
-    isWrong: 1
+    dialogueObject: {fileID: 11400000, guid: b73037f78945e6f4a9825e44c0a638d6, type: 2}
+    isWrong: 0
   - responseText: Do not seize it
-    dialogueObject: {fileID: 11400000, guid: 000c4417705f9d44cac0f58ab161164f, type: 2}
+    dialogueObject: {fileID: 11400000, guid: d9723d5f14b76ce44996891d46958959, type: 2}
     isWrong: 0

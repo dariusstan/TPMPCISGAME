@@ -434,12 +434,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have been assigned the case of "Illegal Online Services"
+  m_text: 'You have been assigned the case of "Child Pornography"
 
 
-    In
-    this particular case, the situation is that the offender is hosting an online
-    gambling service and you have to put a stop to it'
+    In this particular
+    case, time is of the essence in order for you to put a stop to it. There will
+    be a video for you to watch on the next page to better understand what to do '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

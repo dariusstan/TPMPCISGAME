@@ -17,5 +17,7 @@ MonoBehaviour:
   responses:
   - responseText: Seize it
     dialogueObject: {fileID: 11400000, guid: 7f98c25a3c578ec4d9a135fe4cfecd8a, type: 2}
+    isWrong: 0
   - responseText: Do not seize it
     dialogueObject: {fileID: 11400000, guid: e471a0d601086eb46902e7d7ecd72aff, type: 2}
+    isWrong: 1

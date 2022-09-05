@@ -5230,7 +5230,7 @@ MonoBehaviour:
   maxHealth: 3
   currentHealth: 0
   healthBar: {fileID: 1705862618}
-  GameOverScreen: {fileID: 1769486581}
+  quizGameUI: {fileID: 30664003}
   isMove: 0
   interactsound: {fileID: 767288751}
 --- !u!4 &767288743 stripped
@@ -18371,11 +18371,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 630918a3aaafbd04ca5ede6651db89f4, type: 3}
---- !u!1 &1769486581 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 760005711171927481, guid: 630918a3aaafbd04ca5ede6651db89f4, type: 3}
-  m_PrefabInstance: {fileID: 1769486580}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1836229132
 GameObject:
   m_ObjectHideFlags: 0

@@ -332,22 +332,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'When you are searching the crime scene, look out for devices that is able
-    to give you more information about the victim''s social life. From there, relationships
-    can be formed
-
-
-    Do not make any changes to the current state of the device.
-    For example, leave the computer on if it is already turned on. Also, make sure
-    to take photographs of the screens shown on the computer in case something goes
-    wrong
-
-
-    There is a total of 3 correct evidences
-
-
-
-'
+  m_text: "Remember to not analyze artifacts of no evidentiary value. As investigators,
+    you should weigh the potential evidentiary value of artefacts to your limited
+    time constraints. There will be a timer in place as this case is time sensitive.
+    Complete your investigation before the timer ends.\r\n\n TIP: Do not bring back
+    evidence of high potential evidentiary value to the lab for analysis.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -374,15 +363,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -410,7 +399,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -355.09866, y: -170.8764, z: -297.35474, w: -55.425507}
+  m_margin: {x: -344.11972, y: -172.25075, z: -293.01855, w: -81.37636}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -643,7 +632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50.100006, y: -124.8}
+  m_AnchoredPosition: {x: -50.100006, y: -119.8}
   m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070565183

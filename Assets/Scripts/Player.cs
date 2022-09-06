@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
     public int maxHealth = 3;
     public int currentHealth;
     public HealthBar healthBar;
-    public GameObject GameOverScreen;
+    //public GameObject GameOverScreen;
+    public QuizGameUI quizGameUI;
 
    private const float MoveSpeed = 10f;
 
@@ -61,7 +62,9 @@ public class Player : MonoBehaviour
         healthBar.SetHealth(currentHealth);
 
         if (currentHealth == 0){
-            GameOverScreen.SetActive(true);
+            //GameOverScreen.SetActive(true);
+            quizGameUI.GameOverPanel.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }

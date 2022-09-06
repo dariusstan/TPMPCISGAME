@@ -10,8 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
-  m_Name: Desktop Evidence (Correct Answer)
+  m_Name: Router Evidence
   m_EditorClassIdentifier: 
   dialogue:
-  - This is the correct answer!
-  responses: []
+  - 'You have found a router!
+
+    Would you like to analyze it?'
+  responses:
+  - responseText: Yes!
+    dialogueObject: {fileID: 11400000, guid: 75c8fa8a1687505479cbd16087a54b9f, type: 2}
+    isWrong: 1
+  - responseText: No!
+    dialogueObject: {fileID: 11400000, guid: 23bfe1c584681c84aa3112eb09ab0bc2, type: 2}
+    isWrong: 0

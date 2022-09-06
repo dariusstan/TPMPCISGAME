@@ -21,10 +21,13 @@ MonoBehaviour:
       back to the lab. Make sure to take pictures such as the label and brand of
       the camera
     dialogueObject: {fileID: 11400000, guid: bc6aa56e6f1d9a84e9b951a5b08cedcc, type: 2}
+    isWrong: 0
   - responseText: Disconnect everything and securely pack them up to be transported
       back to the lab. Without taking pictures such as the label and brand of the
       camera
     dialogueObject: {fileID: 11400000, guid: 90be9e3d281ca0c4883454570ce6d806, type: 2}
+    isWrong: 1
   - responseText: Bringing back the device as a whole as well as taking pictures
       such as the label and brand of the camera
     dialogueObject: {fileID: 11400000, guid: 46385afa44d960f4ba1f8e2e0c00394a, type: 2}
+    isWrong: 1

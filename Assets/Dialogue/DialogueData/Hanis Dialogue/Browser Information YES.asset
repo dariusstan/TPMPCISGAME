@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b72b290429a8b34d8b0964501175f95, type: 3}
-  m_Name: Desktop Evidence (YES)
+  m_Name: Browser Information YES
   m_EditorClassIdentifier: 
   dialogue:
   - What forensic technique would you like to apply to this evidence?
   responses:
-  - responseText: Determine who has access to the computer and has authenticated
-      login sessions to the user associated with the pornographic materials
-    dialogueObject: {fileID: 11400000, guid: 3d19409ed3b73564a8bd89845df00c88, type: 2}
-    isWrong: 0
-  - responseText: Examine the registry and identify potential registry keys that
-      can aid with the case investigation
+  - responseText: Search through temporary internet files for cached copies of web
+      components that may bring investigative value but is time consuming.
     dialogueObject: {fileID: 11400000, guid: c4b76ed7272f6ad4aa1db9c1d6732dd4, type: 2}
     isWrong: 1
-  - responseText: 'Examine e-mail artefacts for potential traces of any child pornographic
-      material  '
+  - responseText: Examine web browser user information to find the running record
+      of sites visited that contain the list of sites visited efficiently and display
+      the association of the websites with the system user account.
+    dialogueObject: {fileID: 11400000, guid: 2d49f3152a4431e42aa13f37c8fdf7b2, type: 2}
+    isWrong: 0
+  - responseText: Preserve browser information as evidence and bring back to lab
+      for thorough analysis.
     dialogueObject: {fileID: 11400000, guid: c4b76ed7272f6ad4aa1db9c1d6732dd4, type: 2}
     isWrong: 1

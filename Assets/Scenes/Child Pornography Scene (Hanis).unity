@@ -1994,7 +1994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74db230e0455e7d4d847a80e684edea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 0}
+  dialogueObject: {fileID: 11400000, guid: 259fd217fe7a9d9468942c58e1534ab7, type: 2}
   isExclamation: 1
 --- !u!1 &579564248
 GameObject:
@@ -4536,7 +4536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74db230e0455e7d4d847a80e684edea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 0}
+  dialogueObject: {fileID: 11400000, guid: ffd235486dfd6224aad412de48a3eae2, type: 2}
   isExclamation: 1
 --- !u!1 &734608476
 GameObject:
@@ -4683,7 +4683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74db230e0455e7d4d847a80e684edea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 0}
+  dialogueObject: {fileID: 11400000, guid: 2ef3371c1b4b659498020078d857c26f, type: 2}
   isExclamation: 1
 --- !u!1 &749155585
 GameObject:
@@ -4830,7 +4830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74db230e0455e7d4d847a80e684edea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 0}
+  dialogueObject: {fileID: 11400000, guid: a0988520dc33fd14c9ec8b17169c5dc3, type: 2}
   isExclamation: 1
 --- !u!1 &757745094
 GameObject:
@@ -5525,8 +5525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74db230e0455e7d4d847a80e684edea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 0}
-  isExclamation: 1
+  dialogueObject: {fileID: 11400000, guid: 418b6c6409078bb4bae59de7ac54b13d, type: 2}
+  isExclamation: 0
 --- !u!1 &817483847
 GameObject:
   m_ObjectHideFlags: 0

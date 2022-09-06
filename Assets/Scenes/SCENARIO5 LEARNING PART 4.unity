@@ -332,7 +332,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Summary page for scenario 5
+  m_text: "Remember to not analyze artifacts of no evidentiary value. As investigators,
+    you should weigh the potential evidentiary value of artefacts to your limited
+    time constraints. There will be a timer in place as this case is time sensitive.
+    Complete your investigation before the timer ends.\r\n\n TIP: Do not bring back
+    evidence of high potential evidentiary value to the lab for analysis.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -395,7 +399,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -344.11972, y: -265.76593, z: -293.01855, w: 86.04608}
+  m_margin: {x: -344.11972, y: -172.25075, z: -293.01855, w: -81.37636}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -467,7 +471,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BACK
+  m_text: 'PLAY
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -627,7 +633,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -50.100006, y: -119.8}
-  m_SizeDelta: {x: 200, y: 70}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070565183
 MonoBehaviour:
@@ -675,7 +681,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1041560934}
         m_TargetAssemblyTypeName: LoadGamePage, Assembly-CSharp
-        m_MethodName: FinishGame
+        m_MethodName: PlayingPage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

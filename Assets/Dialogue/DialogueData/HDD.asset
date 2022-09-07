@@ -18,7 +18,10 @@ MonoBehaviour:
   - responseText: 'Tip: Remember to transfer the data to a thumbdrive (Choose either
       one of the two options below)'
     dialogueObject: {fileID: 0}
+    isWrong: 0
   - responseText: Seize it
-    dialogueObject: {fileID: 11400000, guid: f3c9534e7f496624e921261bd960b408, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 782d27961ec1add418c5d88fd8aaad9d, type: 2}
+    isWrong: 1
   - responseText: Do not seize it
     dialogueObject: {fileID: 11400000, guid: 000c4417705f9d44cac0f58ab161164f, type: 2}
+    isWrong: 0

@@ -10,12 +10,13 @@ public class Response_manager : MonoBehaviour
    [SerializeField] private RectTransform responseContainer;
 
    private DialogueUI dialogueUI;
-   
+   [SerializeField] private Player player;
    private List<GameObject> tempResponseButtons = new List<GameObject>();
 
    private void Start()
    {
     dialogueUI=GetComponent<DialogueUI>();
+    
    }
    public void ShowResponses (Response[] responses)
    {
@@ -31,15 +32,21 @@ public class Response_manager : MonoBehaviour
             tempResponseButtons.Add(responseButton);
 
             responseBoxHeight += responseButtonTemplate.sizeDelta.y;
+            
         }
 
         ResponseBox.sizeDelta = new Vector2(ResponseBox.sizeDelta.x, responseBoxHeight);
         ResponseBox.gameObject.SetActive(true);
+
    }
     //method below uses private
    private void OnPickedResponse(Response response)
    {
     ResponseBox.gameObject.SetActive(false);
+    if (response.isWrong)
+        {
+            player.TakeDamage(1);
+        }
 
     foreach (GameObject button in tempResponseButtons)
     {

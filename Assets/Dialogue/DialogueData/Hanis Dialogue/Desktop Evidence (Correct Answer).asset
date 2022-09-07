@@ -13,12 +13,5 @@ MonoBehaviour:
   m_Name: Desktop Evidence (Correct Answer)
   m_EditorClassIdentifier: 
   dialogue:
-  - 'You have chose the correct choice!
-
-    Once the PC has been identified and
-    prioritised in the triage phase, investigators will conduct a search for compelling
-    evidence on the system. It is essential to prove the link between the evidence
-    and suspect to ascertain that the individual is **responsible** for the incriminating
-    data. As there could be multiple persons that have access to the machine, it
-    is necessary to identify the correct individual unless he is a fait accompli.'
+  - This is the correct answer!
   responses: []

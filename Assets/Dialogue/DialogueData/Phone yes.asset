@@ -20,9 +20,12 @@ MonoBehaviour:
   - responseText: Leave the device at its current state, ensure network isolation
       and place it inside a faraday bag before bringing it back
     dialogueObject: {fileID: 11400000, guid: 435ac01555a03d74f8ed5ab774611185, type: 2}
+    isWrong: 0
   - responseText: Leave the device at its current state, ensure network isolation
       and bring it back to the lab without needing a faraday bag
     dialogueObject: {fileID: 11400000, guid: cbe38b6c4b6690142860a8167206f0c8, type: 2}
+    isWrong: 1
   - responseText: Change the state of the device, ensure network isolation and place
       it inside a faraday bag before bringing it back
     dialogueObject: {fileID: 11400000, guid: aa9bc0def811c0f4ca4abb34e460d789, type: 2}
+    isWrong: 1

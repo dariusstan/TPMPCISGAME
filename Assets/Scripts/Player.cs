@@ -7,7 +7,11 @@ public class Player : MonoBehaviour
     [SerializeField] private DialogueUI dialogueUI;
     public IInteractable Interactable { get; set; }
     public DialogueUI DialogueUI => dialogueUI;
-
+    public int maxHealth = 3;
+    public int currentHealth;
+    public HealthBar healthBar;
+    //public GameObject GameOverScreen;
+    public QuizGameUI quizGameUI;
 
    private const float MoveSpeed = 10f;
 
@@ -21,6 +25,8 @@ public class Player : MonoBehaviour
    {
     rb = GetComponent<Rigidbody2D>();
     audioSrc = GetComponent<AudioSource>();
+    currentHealth=maxHealth;
+    healthBar.SetMaxHealth(maxHealth);
    }
 
    private void Update()
@@ -47,4 +53,18 @@ public class Player : MonoBehaviour
         else
             audioSrc.Stop();
    }
+
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        healthBar.SetHealth(currentHealth);
+
+        if (currentHealth == 0){
+            //GameOverScreen.SetActive(true);
+            quizGameUI.GameOverPanel.SetActive(true);
+            Time.timeScale = 0f;
+        }
+    }
 }

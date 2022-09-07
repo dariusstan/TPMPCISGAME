@@ -18,9 +18,12 @@ MonoBehaviour:
   - responseText: Determine who has access to the computer and has authenticated
       login sessions to the user associated with the pornographic materials
     dialogueObject: {fileID: 11400000, guid: 3d19409ed3b73564a8bd89845df00c88, type: 2}
+    isWrong: 0
   - responseText: Examine the registry and identify potential registry keys that
       can aid with the case investigation
-    dialogueObject: {fileID: 11400000, guid: 6fc7211812e982f4c9ad8d4d331c1c7e, type: 2}
+    dialogueObject: {fileID: 11400000, guid: c4b76ed7272f6ad4aa1db9c1d6732dd4, type: 2}
+    isWrong: 1
   - responseText: 'Examine e-mail artefacts for potential traces of any child pornographic
       material  '
-    dialogueObject: {fileID: 11400000, guid: ebeb41bf297b7fc4793d3a9a06f5566e, type: 2}
+    dialogueObject: {fileID: 11400000, guid: c4b76ed7272f6ad4aa1db9c1d6732dd4, type: 2}
+    isWrong: 1

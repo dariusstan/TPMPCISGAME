@@ -434,12 +434,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have been assigned the case of "Illegal Online Services"
-
-
-    In
-    this particular case, the situation is that the offender is hosting an online
-    gambling service and you have to put a stop to it'
+  m_text: "You have been assigned to the case of \u201CChild Pornography.\u201D\r\n\nAs
+    time is of the essence, you will use a different approach when conducting the
+    investigation and nib the case in the bud. There is a tutorial video prepared
+    for you in the next page which will contain a cyber forensics model when approach
+    time-sensitive cases. Please proceed to the next page.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -466,8 +465,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -554,7 +553,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -50.1, y: -119.8}
-  m_SizeDelta: {x: 200, y: 100}
+  m_SizeDelta: {x: 200, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1212116955
 MonoBehaviour:
